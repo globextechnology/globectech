@@ -12260,18 +12260,18 @@ ul.contact-details__info {
 .banner_col__form textarea,
 .banner_col__form input[type=number]{
   background-color: transparent;
-  border: 1px solid #ffffff5e;
+  border: 1px solid #ffffff9c;
   border-radius: 8px;
   padding: 6px 12px;
   width: 100%;
-  color: #ffffff5e;
+  color: #ffffff9c;
 }
 .banner_col__form input[type=number]{
   border: none !important;
 }
 .banner_col__form input[type=text]::placeholder,
 .banner_col__form textarea::placeholder{
-  color: #ffffff5e;
+  color: #ffffff9c;
   font-weight: 500;
 }
 .banner_col__form input[type=submit]{
@@ -12318,14 +12318,14 @@ ul.contact-details__info {
 .dropdown_contact{
   display: flex;
   align-items: center;
-  border: 1px solid #ffffff5e;
+  border: 1px solid #ffffff9c;
   border-radius: 8px;
   margin: 16.5px 0;
 }
 select.demo {
   background: transparent;
   border-radius: 8px;
-  color: #ffffff5e;
+  color: #ffffff9c;
   padding: 12px 22px;
   width: 23%;
 }
@@ -12338,11 +12338,11 @@ select.demo option{
 }
 .field select{
   background-color: transparent;
-    border: 1px solid #ffffff5e;
+    border: 1px solid #ffffff9c;
     border-radius: 8px;
     padding: 12px 12px;
     width: 100%;
-    color: #ffffff5e;
+    color: #ffffff9c;
     
 }
 /* top menu */
