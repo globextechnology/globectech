@@ -3524,7 +3524,8 @@ Section Title
   margin-bottom: 50px;
 }
 
-.sec-title h2 {
+.sec-title h2,
+.sec-title h1 {
   position: relative;
   font-size: var(--sec-title-font-size);
   color: var(--sec-title-color);
@@ -12411,7 +12412,7 @@ select.contact_slect {
 
 }
 
-#counter li h1{
+#counter li h2{
   color: #fff;
   font-size: 50px;
   margin: 0;

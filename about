@@ -40,7 +40,7 @@
 			<!-- Main box -->
 			<div class="main-box">
 				<div class="mobile-logo">
-					<div class="logo"><a href="/"><img src="images/logoo.png" alt=""></a>
+					<div class="logo"><a href="/"><img src="images/logoo.png" alt="globextechnology"></a>
 					</div>
 				</div>
 
@@ -140,7 +140,7 @@
 				<div class="inner-container">
 					<!--Logo-->
 					<div class="logo">
-						<a href="/" title=""><img src="images/logoo.png" alt="" title=""></a>
+						<a href="/"><img src="images/logoo.png" alt="globextechnology"></a>
 					</div>
 					
 					<!--Right Col-->

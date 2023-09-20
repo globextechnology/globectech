@@ -143,7 +143,7 @@
 					<div class="inner-container">
 						<!--Logo-->
 						<div class="logo">
-							<a href="/" title=""><img src="images/logoo.png" alt="" title=""></a>
+							<a href="/"><img src="images/logoo.png" alt="globextechnology"></a>
 						</div>
 						
 						<!--Right Col-->
@@ -174,8 +174,8 @@
 			<div class="container pb-100">
 				<div class="sec-title text-center">
 					<span class="sub-title">Contact With Us Now</span>
-					<h2 class="section-title__title">Chat With Us
-						and get your <br> project moving!</h2>
+					<h1 class="section-title__title">Chat With Us
+						and get your <br> project moving!</h1>
 				</div>
 				<div class="row justify-content-center">
 					<div class="col-lg-8">

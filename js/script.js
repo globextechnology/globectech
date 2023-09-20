@@ -643,9 +643,9 @@ var THEMEMASCOT = {};
 	   When document is loading, do
 	   ========================================================================== */
 
-	$(window).on('load', function () {
-		handlePreloader();
-	});
+	// $(window).on('load', function () {
+	// 	handlePreloader();
+	// });
 
 })(window.jQuery);
 
