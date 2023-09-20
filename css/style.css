@@ -3538,12 +3538,14 @@ Section Title
 }
 
 @media only screen and (max-width: 1023px) {
-  .sec-title h2 {
+  .sec-title h2,
+  .sec-title h1 {
     font-size: 38px;
     line-height: 1.2em;
   }
 
-  .sec-title h2 br {
+  .sec-title h2 br ,
+  .sec-title h1 br{
     display: none;
   }
 }
@@ -12509,7 +12511,7 @@ select.contact_slect {
   .page-title.page-title2 {
     padding: 182px 0;
   }
-  #counter li h1 {
+  #counter li h2 {
     font-size: 42px;
   }
 }
