@@ -38,7 +38,7 @@
 			<!-- Main box -->
 			<div class="main-box">
 				<div class="mobile-logo">
-					<div class="logo"><a href="/"><img src="images/logoo.png" alt="Globex Technology"></a>
+					<div class="logo"><a href="/"><img src="images/logoo.png" alt=""></a>
 					</div>
 				</div>
 
@@ -47,14 +47,14 @@
 					<nav class="nav main-menu">
 						<ul class="navigation">
 							<li ><a href="/">Home</a></li>
-							<li><a href="about.html">About</a></li>
+							<li><a href="/about">About</a></li>
 
-							<li class="current"><a href="services.html">Services</a>
+							<li class="current"><a href="/services">Services</a>
 
 							</li>
 
 
-							<li><a href="contact.html">Contact</a></li>
+							<li><a href="/contact">Contact</a></li>
 						</ul>
 					</nav>
 					<!-- Main Menu End-->
@@ -138,7 +138,7 @@
 				<div class="inner-container">
 					<!--Logo-->
 					<div class="logo">
-						<a href="/" title=""><img src="images/logoo.png" alt="Globex Technology" title=""></a>
+						<a href="/" title=""><img src="images/logoo.png" alt="" title=""></a>
 					</div>
 					
 					<!--Right Col-->
@@ -192,9 +192,9 @@
 						<div class="inner-box">
 							<div class="content">
 								<figure class="icon"><img src="images/graphic-designer.png" alt="Globex Technology"></figure>
-								<h4 class="title"><a href="graphic-designing.html">Graphics Designing</a></h4>
+								<h4 class="title"><a href="/graphic-designing">Graphics Designing</a></h4>
 								<div class="text">We specialize in crafting engaging interactive designs that captivate and connect.</div>
-								<a href="graphic-designing.html" class="read-more"><i class="fa fa-arrow-right"></i></a>
+								<a href="/graphic-designing" class="read-more"><i class="fa fa-arrow-right"></i></a>
 							</div>
 						</div>
 					</div>
@@ -204,9 +204,9 @@
 						<div class="inner-box">
 							<div class="content">
 								<figure class="icon"><img src="images/web-development.png" alt="Globex Technology"></figure>
-								<h4 class="title"><a href="web-development.html">Web Development</a></h4>
+								<h4 class="title"><a href="/web-development">Web Development</a></h4>
 								<div class="text">We offer dynamic and responsive websites to elevate your online presence.</div>
-								<a href="web-development.html" class="read-more"><i class="fa fa-arrow-right"></i></a>
+								<a href="/web-development" class="read-more"><i class="fa fa-arrow-right"></i></a>
 							</div>
 						</div>
 					</div>
@@ -216,9 +216,9 @@
 						<div class="inner-box">
 							<div class="content">
 								<figure class="icon"><img src="images/mobile.png" alt="Globex Technology"></figure>
-								<h4 class="title"><a href="app-development.html">App Development</a></h4>
+								<h4 class="title"><a href="/app-development">App Development</a></h4>
 								<div class="text">Delivering innovative mobile app solutions to enhance user experiences on the go.</div>
-								<a href="app-development.html" class="read-more"><i class="fa fa-arrow-right"></i></a>
+								<a href="/app-development" class="read-more"><i class="fa fa-arrow-right"></i></a>
 							</div>
 						</div>
 					</div>
@@ -231,9 +231,9 @@
 						<div class="inner-box">
 							<div class="content">
 								<figure class="icon"><img src="images/call-center.png" alt="Globex Technology"></figure>
-								<h4 class="title"><a href="customer-service.html">Custome Service</a></h4>
+								<h4 class="title"><a href="/customer-service">Custome Service</a></h4>
 								<div class="text">Your satisfaction is our priority, and we're here to exceed your service expectations.</div>
-								<a href="customer-service.html" class="read-more"><i class="fa fa-arrow-right"></i></a>
+								<a href="/customer-service" class="read-more"><i class="fa fa-arrow-right"></i></a>
 							</div>
 						</div>
 					</div>
@@ -243,9 +243,9 @@
 						<div class="inner-box">
 							<div class="content">
 								<figure class="icon"><img src="images/performance.png" alt="Globex Technology"></figure>
-								<h4 class="title"><a href="digital-marketing.html">Digital Marketing</a></h4>
+								<h4 class="title"><a href="/digital-marketing">Digital Marketing</a></h4>
 								<div class="text">Your partner in achieving digital excellence through targeted marketing approaches.</div>
-								<a href="digital-marketing.html" class="read-more"><i class="fa fa-arrow-right"></i></a>
+								<a href="/digital-marketing" class="read-more"><i class="fa fa-arrow-right"></i></a>
 							</div>
 						</div>
 					</div>
@@ -255,9 +255,9 @@
 						<div class="inner-box">
 							<div class="content">
 								<figure class="icon"><img src="images/social-media.png" alt="Globex Technology"></figure>
-								<h4 class="title"><a href="social-media-marketing.html">Social Media Marketing</a></h4>
+								<h4 class="title"><a href="/social-media-marketing">Social Media Marketing</a></h4>
 								<div class="text">Empowering businesses with impactful social media campaigns tailored for growth and engagement</div>
-								<a href="social-media-marketing.html" class="read-more"><i class="fa fa-arrow-right"></i></a>
+								<a href="/social-media-marketing" class="read-more"><i class="fa fa-arrow-right"></i></a>
 							</div>
 						</div>
 					</div>
@@ -297,8 +297,8 @@
 							<h6 class="widget-title">Pages</h6>
 							<ul class="user-links">
 								<li><a href="/">Home</a></li>
-								<li><a href="about.html">About</a></li>
-								<li><a href="contact.html">Contact</a></li>
+								<li><a href="/about">About</a></li>
+								<li><a href="/contact">Contact</a></li>
 								<li><a href="#">Privacy policy</a></li>
 							</ul>
 						</div>

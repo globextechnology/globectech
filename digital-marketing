@@ -49,15 +49,15 @@
 					<div class="nav-outer">
 						<nav class="nav main-menu">
 							<ul class="navigation">
-								<li><a href="/">Home</a></li>
-								<li><a href="about.html">About</a></li>
+								<li ><a href="/">Home</a></li>
+								<li><a href="/about">About</a></li>
 
-								<li class="current"><a href="services.html">Services</a>
+								<li class="current"><a href="/services">Services</a>
 
 								</li>
 
 
-								<li><a href="contact.html">Contact</a></li>
+								<li><a href="/contact">Contact</a></li>
 							</ul>
 						</nav>
 						<!-- Main Menu End-->
@@ -65,7 +65,7 @@
 
 
 					<div class="outer-box">
-
+						
 						<!-- Mobile Nav toggler -->
 						<div class="mobile-nav-toggler"><span class="icon lnr-icon-bars"></span></div>
 					</div>
@@ -105,7 +105,7 @@
 						</li>
 						<li>
 							<!-- Contact Info Box -->
-
+							
 						</li>
 					</ul>
 
@@ -143,7 +143,7 @@
 						<div class="logo">
 							<a href="/" title=""><img src="images/logoo.png" alt="" title=""></a>
 						</div>
-
+						
 						<!--Right Col-->
 						<div class="nav-outer">
 							<!-- Main Menu -->
@@ -159,8 +159,7 @@
 							<div class="mobile-nav-toggler"><span class="icon lnr-icon-bars"></span></div>
 						</div>
 						<div class="outer-box">
-							<a href="tel:+923210009044"><i class="icon lnr-icon-phone-handset"></i>
-								<span>+92-321-0009044</span></a>
+							<a href="tel:+923210009044"><i class="icon lnr-icon-phone-handset"></i> <span>+92-321-0009044</span></a>
 
 						</div>
 					</div>
@@ -1254,23 +1253,23 @@
 
 								<div class="sidebar-service-list">
 									<ul>
-										<li><a href="customer-service.html"><i
+										<li><a href="/customer-service"><i
 													class="fas fa-angle-right"></i><span>Customer Service</span></a>
 										</li>
-										<li><a href="graphic-designing.html"><i
+										<li><a href="/graphic-designing"><i
 													class="fas fa-angle-right"></i><span>Graphic Designing</span></a>
 										</li>
 										<li><a href="#"><i class="fas fa-angle-right"></i><span>Full stack Web
 													Development</span></a></li>
-										<li><a href="app-development.html"><i class="fas fa-angle-right"></i><span>App
+										<li><a href="/app-development"><i class="fas fa-angle-right"></i><span>App
 													Development</span></a></li>
-										<li class="current"><a href="digital-marketing.html" class="current"><i
+										<li class="current"><a href="/digital-marketing" class="current"><i
 													class="fas fa-angle-right"></i><span>Digital Marketing</span></a>
 										</li>
-										<li><a href="social-media-marketing.html"><i
+										<li><a href="/social-media-marketing"><i
 													class="fas fa-angle-right"></i><span>Social Media
 													Marketing</span></a></li>
-										<li><a href="quality-assurance.html"><i
+										<li><a href="/quality-assurance"><i
 													class="fas fa-angle-right"></i><span>Quality Assurance</span></a>
 										</li>
 
@@ -1392,8 +1391,8 @@
 								<h6 class="widget-title">Pages</h6>
 								<ul class="user-links">
 									<li><a href="/">Home</a></li>
-									<li><a href="about.html">About</a></li>
-									<li><a href="contact.html">Contact</a></li>
+									<li><a href="/about">About</a></li>
+									<li><a href="/contact">Contact</a></li>
 									<li><a href="#">Privacy policy</a></li>
 								</ul>
 							</div>

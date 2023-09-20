@@ -4,15 +4,17 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="title" content="Graphic Designing Services | Creative Visuals, logo & Branding">
+	<meta name="title" content="Customer Services | Dedicated Support & Satisfaction">
 	<meta name="description"
-		content="Unleash Creativity with Professional Graphic Designing Services. We specialize in creating stunning visuals, logos, branding, and more to captivate your audience and elevate your brand identity.">
+		content="Exceptional Customer Services to Delight Our Clients. We prioritize customer satisfaction and offer dedicated support, quick issue resolution, and personalized assistance to meet your needs.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
 	<link href="css/style.css" rel="stylesheet">
 	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 	<link rel="icon" href="images/favicon.png" type="image/x-icon">
-	<title>Graphic Designing Services | Creative Visuals, logo & Branding</title>
+	<title>Customer Services | Dedicated Support & Satisfaction</title>
+
+
 </head>
 
 <body>
@@ -21,7 +23,7 @@
 
 		<div class="top_menu__row">
 			<div class="logo-box-top">
-				<a href="/"><img src="images/logoo.png" alt=""></a>
+				<a href="/"><img src="images/logoo.png" alt="Globex Technology"></a>
 			</div>
 			<div class="top-col">
 				<div class="email_col">
@@ -48,15 +50,15 @@
 					<div class="nav-outer">
 						<nav class="nav main-menu">
 							<ul class="navigation">
-								<li><a href="/">Home</a></li>
-								<li><a href="about.html">About</a></li>
+								<li ><a href="/">Home</a></li>
+								<li><a href="/about">About</a></li>
 
-								<li class="current"><a href="services.html">Services</a>
+								<li class="current"><a href="/services">Services</a>
 
 								</li>
 
 
-								<li><a href="contact.html">Contact</a></li>
+								<li><a href="/contact">Contact</a></li>
 							</ul>
 						</nav>
 						<!-- Main Menu End-->
@@ -64,7 +66,7 @@
 
 
 					<div class="outer-box">
-
+						
 						<!-- Mobile Nav toggler -->
 						<div class="mobile-nav-toggler"><span class="icon lnr-icon-bars"></span></div>
 					</div>
@@ -104,7 +106,7 @@
 						</li>
 						<li>
 							<!-- Contact Info Box -->
-
+							
 						</li>
 					</ul>
 
@@ -142,7 +144,7 @@
 						<div class="logo">
 							<a href="/" title=""><img src="images/logoo.png" alt="" title=""></a>
 						</div>
-
+						
 						<!--Right Col-->
 						<div class="nav-outer">
 							<!-- Main Menu -->
@@ -158,8 +160,7 @@
 							<div class="mobile-nav-toggler"><span class="icon lnr-icon-bars"></span></div>
 						</div>
 						<div class="outer-box">
-							<a href="tel:+923210009044"><i class="icon lnr-icon-phone-handset"></i>
-								<span>+92-321-0009044</span></a>
+							<a href="tel:+923210009044"><i class="icon lnr-icon-phone-handset"></i> <span>+92-321-0009044</span></a>
 
 						</div>
 					</div>
@@ -171,7 +172,7 @@
 		<section class="page-title">
 			<div class="banner_row">
 				<div class="banner_col">
-					<h1>We Provide <br>Graphic Service<br> </h1>
+					<h1>We Provide <br>Customer Service<br> </h1>
 					<p>Grow your Business With Us Best Business Solutions</p>
 
 				</div>
@@ -1252,25 +1253,26 @@
 
 								<div class="sidebar-service-list">
 									<ul>
-										<li><a href="customer-service.html"><i
+										<li class="current"><a href="/customer-service"><i
 													class="fas fa-angle-right"></i><span>Customer Service</span></a>
 										</li>
-										<li class="current"><a href="graphic-designing.html" class="current"><i
+										<li><a href="/graphic-designing" class="current"><i
 													class="fas fa-angle-right"></i><span>Graphic Designing</span></a>
 										</li>
-										<li><a href="web-development.html"><i class="fas fa-angle-right"></i><span>Full
+										<li><a href="/web-development"><i class="fas fa-angle-right"></i><span>Full
 													stack Web Development</span></a></li>
-										<li><a href="app-development.html"><i class="fas fa-angle-right"></i><span>App
+										<li><a href="/app-development"><i class="fas fa-angle-right"></i><span>App
 													Development</span></a></li>
-										<li><a href="digital-marketing.html"><i
+										<li><a href="/digital-marketing"><i
 													class="fas fa-angle-right"></i><span>Digital Marketing</span></a>
 										</li>
-										<li><a href="social-media-marketing.html"><i
+										<li><a href="/social-media-marketing"><i
 													class="fas fa-angle-right"></i><span>Social Media
 													Marketing</span></a></li>
-										<li><a href="quality-assurance.html"><i
+										<li><a href="/quality-assurance"><i
 													class="fas fa-angle-right"></i><span>Quality Assurance</span></a>
 										</li>
+
 									</ul>
 								</div>
 
@@ -1283,71 +1285,63 @@
 					<!--Start Services Details Content-->
 					<div class="col-xl-8 col-lg-8">
 						<div class="services-details__content">
-							<img src="images/background/graphic.jpg" alt="" />
-							<h3 class="mt-4">Graphic Designing Services</h3>
-							<p>At Globex Technology, we offer a range of graphic designing services and tools to help
-								businesses create visually appealing and engaging content. Our team of experienced
-								graphic designers and artists work closely with our clients to understand their
-								requirements and create custom designs that align with their brand image and messaging.
-							</p>
-							<h3>Our Graphic Designing Services Offerings</h3>
+							<img src="images/background/customer-service.jpeg" alt="" />
+							<h3 class="mt-4">CSR Services</h3>
+							<p>CS services refer to the various channels and methods that companies use to provide
+								customer support and assistance. Effective customer service services content should be
+								tailored to the specific channel or method of communication being used. Here are some
+								tips for creating effective customer service content for different service channels:</p>
+
 							<ul>
-								<li><span>Brand Identity Design:</span> We specialize in creating brand identity designs
-									that help businesses establish a strong brand image. Our brand identity design
-									services include logo design, business card design, letterhead design, and more.
+								<li><span>Phone support:</span>Be polite and attentive, listen actively to the customer,
+									and use a clear and concise tone to convey information.</li>
+								<li><span>Email support:</span>Use clear and direct language to provide detailed answers
+									to customer inquiries or issues.
+
 								</li>
-								<li><span>Print Design:</span> We offer a range of print design services that include
-									brochure design, flyer design, catalog design, packaging design, and more. Our print
-									designs are created to grab attention, communicate key messages, and drive
-									engagement.</li>
-								<li><span> Web and Social Media Design:</span> e offer web and social media design
-									services that include website design, landing page design, social media graphics
-									design, and more. Our designs are optimized for digital channels and are created to
-									increase engagement and conversions.</li>
-								<li><span>Illustration and Animation: </span> Our team of graphic designers and artists
-									specialize in creating custom illustrations and animations that can help businesses
-									create engaging and visually appealing content. We create illustrations and
-									animations for a variety of purposes, including marketing materials, explainer
-									videos, and more.</li>
-
+								<li><span> Live chat support:</span> Respond quickly and professionally, use a friendly
+									and engaging tone, and provide relevant links or resources to help the customer.
+								</li>
+								<li><span>Social media support: </span> Respond promptly to customer inquiries or issues
+									on social media platforms, use a friendly and approachable tone, and provide helpful
+									resources or links to address their concerns.</li>
+								<li><span>In-person support:</span>Greet customers warmly, actively listen to their
+									concerns, and provide clear and concise information to address their needs.</li>
 							</ul>
-							<h3>Our Graphic Designing Tools</h3>
+							<p>Regardless of the channel being used, effective customer service content should aim to be
+								helpful, informative, and courteous. It should provide accurate information, practical
+								solutions, and a positive experience for the customer. By providing exceptional customer
+								service content across different service channels, you can build strong relationships
+								with your customers and ensure their satisfaction with your products and services.</p>
+							<h3>CSR responsibilities</h3>
+							<p>As a customer service representative for a software company, your goal is to help
+								customers with their technical inquiries and issues. Here are some tips for creating
+								effective customer service content as a representative for a software company:
 
+							</p>
 							<ul>
-								<li><span>Adobe Creative Suite:</span>We use Adobe Creative Suite to create our designs,
-									including Photoshop, Illustrator, and InDesign. These powerful tools help us create
-									high-quality designs that are optimized for both print and digital channels.</li>
-								<li><span>Sketch:</span> We use Sketch to create user interface designs for websites and
-									mobile apps. This powerful tool allows us to create responsive designs that look
-									great on all devices.</li>
-								<li><span> Canva:</span> We use Canva to create quick and easy designs for social media
-									graphics, flyers, and other marketing materials. This tool is perfect for businesses
-									that need to create designs quickly and on a budget.</li>
+								<li><span> Understand the software:</span>Gain a thorough understanding of the software
+									that your company offers, including its features and functionalities.</li>
+								<li><span>Use technical language: </span>Use technical language to explain complex
+									concepts and issues to customers.</li>
+								<li><span> Offer practical solutions: </span>Provide practical and actionable solutions
+									to customers' technical problems.</li>
+								<li><span>Use screenshots or videos:</span>Use screenshots or videos to visually
+									demonstrate how to use certain features or solve particular issues.</li>
+								<li><span>Offer self-help resources:</span>Provide customers with self-help resources,
+									such as FAQs, user manuals, and tutorials to help them troubleshoot issues on their
+									own.</li>
+								<li><span>Follow up: </span>Follow up with customers after their issue has been resolved
+									to ensure their satisfaction and address any additional concerns.</li>
+								<li><span>Be professional:</span>Maintain a professional tone and demeanor, even in
+									difficult situations.
 
+								</li>
+								<li><span>Continuously update your knowledge: </span>Stay up-to-date with the latest
+									software updates, industry trends, and customer needs by continuously updating your
+									knowledge and skills.</li>
 							</ul>
-							<h3>Why Choose Us?</h3>
-							<p>At Globex Technology, we are committed to delivering high-quality graphic design services
-								and tools that help businesses achieve their goals. Here are some reasons why you should
-								choose us for your graphic design needs:</p>
-							<ul>
-								<li><span> Experienced Team:</span>We have a team of experienced graphic designers and
-									artists who have worked with a variety of clients across different industries. We
-									bring our wealth of experience to every project we undertake, ensuring that our
-									clients get the best possible results.</li>
-								<li><span>Custom Designs: </span>We believe that every business is unique and that's why
-									we offer custom designs that align with our clients' brand image and messaging. Our
-									designs are created to stand out and make an impact.</li>
-								<li><span> Competitive Pricing: </span>We offer competitive pricing for all our graphic
-									design services and tools, ensuring that our clients get the best value for their
-									investment.</li>
-								<li><span>Timely Delivery:</span>We understand the importance of timely delivery and we
-									work diligently to ensure that our projects are completed within the agreed
-									timeframe.</li>
-							</ul>
-							<h3>Contact Us Today</h3>
-							<p>If you're looking for a mobile app development company that can help you bring your app
-								idea to life, contact us today. We'd be happy to discuss your project and provide a free
-								consultation.</p>
+
 
 
 						</div>
@@ -1388,8 +1382,8 @@
 								<h6 class="widget-title">Pages</h6>
 								<ul class="user-links">
 									<li><a href="/">Home</a></li>
-									<li><a href="about.html">About</a></li>
-									<li><a href="contact.html">Contact</a></li>
+									<li><a href="/about">About</a></li>
+									<li><a href="/contact">Contact</a></li>
 									<li><a href="#">Privacy policy</a></li>
 								</ul>
 							</div>

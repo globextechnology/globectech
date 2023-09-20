@@ -4,27 +4,23 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="title" content="Full Stack Web Development Services | Globex Technology">
-<meta name="description" content="Empowering Businesses with Comprehensive Full Stack Web Development Services. Our team crafts end-to-end solutions, handling both front-end and back-end development to deliver robust and seamless web applications.">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-
+<meta name="title" content="Social Media Marketing | Engaging Campaigns & Online Presence">
+<meta name="description" content="Boost Your Brand with Strategic Social Media Marketing Services. We specialize in creating engaging campaigns, building a strong online presence, and driving meaningful connections with your target audience">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-<link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
-
 <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 <link rel="icon" href="images/favicon.png" type="image/x-icon">
-<title>Full Stack Web Development Services - Globex Technology</title>
+<title>Social Media Marketing | Engaging Campaigns & Online Presence</title>
 </head>
 
 <body>
 
 <div class="page-wrapper">
 
-
 	<div class="top_menu__row">
 		<div class="logo-box-top">
-			<a href="/"><img src="images/logoo.png" alt="" ></a>
+			<a href="/"><img src="images/logoo.png" alt=""></a>
 		</div>
 		<div class="top-col">
 			<div class="email_col">
@@ -41,7 +37,7 @@
 			<!-- Main box -->
 			<div class="main-box">
 				<div class="mobile-logo">
-					<div class="logo"><a href="/"><img src="images/logoo.png" alt="" ></a>
+					<div class="logo"><a href="/"><img src="images/logoo.png" alt=""></a>
 					</div>
 				</div>
 
@@ -50,14 +46,14 @@
 					<nav class="nav main-menu">
 						<ul class="navigation">
 							<li ><a href="/">Home</a></li>
-							<li><a href="about.html">About</a></li>
+							<li><a href="/about">About</a></li>
 
-							<li class="current"><a href="services.html">Services</a>
+							<li class="current"><a href="/services">Services</a>
 
 							</li>
 
 
-							<li><a href="contact.html">Contact</a></li>
+							<li><a href="/contact">Contact</a></li>
 						</ul>
 					</nav>
 					<!-- Main Menu End-->
@@ -79,7 +75,7 @@
 			<!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
 			<nav class="menu-box">
 				<div class="upper-box">
-					<div class="nav-logo"><a href="/"><img src="images/logo.png" alt="" title=""></a></div>
+					
 					<div class="close-btn"><i class="icon fa fa-times"></i></div>
 				</div>
 
@@ -171,8 +167,8 @@
 	<section class="page-title">
 		<div class="banner_row">
 			<div class="banner_col">
-				<h1>We Provide <br>Full Stack Web development<br> </h1>
-				<p>We offer dynamic and responsive websites to elevate your online presence.</p>
+				<h1>We Provide <br>Social Media marketing<br> </h1>
+				<p>Grow your Business With Us Best Business Solutions</p>
 				
 			</div>
 			<div class="banner_col__form">
@@ -1253,18 +1249,17 @@
 
 							<div class="sidebar-service-list">
 								<ul>
-									<li><a href="customer-service.html"><i class="fas fa-angle-right"></i><span>Customer Service</span></a></li>
-									<li ><a href="graphic-designing.html"><i class="fas fa-angle-right"></i><span>Graphic Designing</span></a></li>
-									<li class="current"><a href="web-development.html" class="current"><i class="fas fa-angle-right"></i><span>Full stack Web Development</span></a></li>
-									<li ><a href="app-development.html" ><i class="fas fa-angle-right"></i><span>App Development</span></a></li>
-									<li><a href="digital-marketing.html"><i class="fas fa-angle-right"></i><span>Digital Marketing</span></a></li>
-									<li><a href="social-media-marketing.html"><i class="fas fa-angle-right"></i><span>Social Media Marketing</span></a></li>
-									<li ><a href="quality-assurance.html" ><i class="fas fa-angle-right"></i><span>Quality Assurance</span></a></li>
+									<li><a href="/customer-service"><i class="fas fa-angle-right"></i><span>Customer Service</span></a></li>
+									<li ><a href="/graphic-designing"><i class="fas fa-angle-right"></i><span>Graphic Designing</span></a></li>
+									<li><a href="#"><i class="fas fa-angle-right"></i><span>Full stack Web Development</span></a></li>
+									<li ><a href="/app-development" ><i class="fas fa-angle-right"></i><span>App Development</span></a></li>
+									<li><a href="/digital-marketing"><i class="fas fa-angle-right"></i><span>Digital Marketing</span></a></li>
+									<li class="current"><a href="/social-media-marketing" class="current"><i class="fas fa-angle-right"></i><span>Social Media Marketing</span></a></li>
+									<li ><a href="/quality-assurance" ><i class="fas fa-angle-right"></i><span>Quality Assurance</span></a></li>
 
 								</ul>
 							</div>
 
-							
 						</div>
 						<!--End Services Details Sidebar-->
 					</div>
@@ -1273,54 +1268,32 @@
 				<!--Start Services Details Content-->
 				<div class="col-xl-8 col-lg-8">
 					<div class="services-details__content">
-						<img src="images/background/web.jpg" alt="" />
-						<h3 class="mt-4">Full Stack Web development</h3>
-						<p>At Globex Technology, we specialize in designing and developing custom websites that provide exceptional user experiences while meeting the unique needs of our clients. Our team of expert developers, designers, and project managers work together to deliver top-notch websites that are intuitive, user-friendly, and engaging.
+						<img src="images/background/social-media.jpg" alt="social media marketing" />
+						<h3 class="mt-4">Social Media Marketing</h3>
+						<p>Social media has become an essential part of any business's marketing strategy. It provides businesses with a platform to engage with their audience, build brand awareness, and drive traffic to their website. At [company name], we offer a range of social media marketing services to help businesses maximize their social media presence and achieve their marketing goals.
+
                         </p>
-                      
-						<h3>Front-End Development:</h3>
+						<h3>Our Social Media Marketing Services</h3>
 						<ul>
-							<li><span>Front-End Development:</span> Creating responsive and user-friendly interfaces using HTML5, CSS, ReactJS, AngularJS, VueJS</li>
-							<li><span>NextJS, and JavaScript.</span> This includes designing layouts, navigation menus, forms, and interactive elements.</li>
-							<li><span>UI/UX Design:</span> Designing visually appealing and intuitive user interfaces that enhance user experience and engagement.</li>
-							<li><span>Single Page Applications (SPAs):</span> Developing dynamic web applications that provide a seamless experience by loading content without requiring full page reloads.</li>
-							<li><span>Cross-Browser Compatibility:</span> Ensuring that web applications work correctly and consistently across different web browsers.</li>
+							<li><span>Social Media Strategy: </span>We create custom social media strategies for our clients that align with their business goals. Our strategies include audience targeting, content planning, engagement tactics, and more.</li>
+							<li><span>Social Media Management:</span> We manage our clients' social media accounts on platforms like Facebook, Twitter, Instagram, and LinkedIn. Our management services include content creation, community management, social media advertising, and more.</li>
+							<li><span>Social Media Advertising:</span> We create and manage social media advertising campaigns that target our clients' ideal audience. Our advertising services include ad creation, audience targeting, and campaign optimization.</li>
+							<li><span>Social Media Analytics:</span> We provide regular reports to our clients, detailing the performance of their social media campaigns. This helps our clients make data-driven decisions and optimize their social media strategies for maximum impact.</li>
+							
 						</ul>
 						
-						<h3>Back-End Development:</h3>
+						<h3>Why Choose Us?</h3>
                         <ul>
-                            <li><span>Server-Side Programming:</span> Developing the server-side logic of web applications using languages like Python, Ruby, Java, Node.js, etc.</li>
-                            <li><span>Database Management:</span> Creating, configuring, and maintaining databases using technologies like SQL (e.g., MySQL, PostgreSQL) or NoSQL (e.g., MongoDB, Redis).</li>
-                            <li><span>API Development:</span> Building application programming interfaces (APIs) that allow different parts of a web application to communicate with each other and with external services.</li>
-                            <li><span>Authentication and Security:</span> Implementing user authentication, authorization, and data security measures to protect sensitive information.</li>
-                            <li><span>Server Deployment:</span> Setting up and configuring web servers, hosting services, and cloud platforms to deploy and manage applications.</li>
+                            <li><span>Customized Solutions:</span>We understand that every business is unique, and that's why we offer customized social media marketing solutions that align with our clients' objectives. Our solutions are tailored to meet our clients' specific needs and help them achieve their marketing goals.</li>
+                            <li><span> Experienced Team:</span>We have a team of experienced social media marketing specialists who have worked with a variety of clients across different industries. Our team brings a wealth of knowledge and expertise to every project we undertake, ensuring that our clients get the best possible results.</li>
+                            <li><span> Creative Content: </span>We create high-quality, engaging content that resonates with our clients' audience and drives engagement. Our content is designed to tell our clients' brand story and build brand awareness.
+                            </li>
+                            <li><span>ransparent Reporting:  </span> We provide regular reports to our clients, detailing the performance of their social media campaigns. Our reports are easy to understand and provide actionable insights that help our clients make informed decisions.</li>
                         </ul>
 						
-						<h3>Full Stack Integration:</h3>
-						<ul>
-                            <li><span>Connecting Front-End and Back-End:</span> Integrating the front-end and back-end components of a web application to ensure smooth communication and functionality.</li>
-                            <li><span>Data Flow:</span> Managing the flow of data between the user interface, server, and database to ensure accurate and efficient data processing.</li>
-                            <li><span>Third-Party Services:</span> Integrating third-party services like payment gateways, social media APIs, and external data sources into the application.</li>
-                        </ul>
+						<h3>Contact Us Today</h3>
+						<p>If you're looking for effective social media marketing solutions, contact us today. We'd be happy to discuss your project and provide a free consultation.</p>
 						
-                        <h3>Version Control:</h3>
-                        <ul>
-                            <li><span>Git:</span> Using version control systems like Git to track changes in the codebase, collaborate with other developers, and manage different versions of the application.</li>
-
-                        </ul>
-						<h3>Continuous Learning:</h3>
-						<ul>
-							<li>
-								Staying updated with the latest trends, tools, and technologies in web development to provide clients with modern and efficient solutions.
-							</li>
-						</ul>
-
-						<h3>Project Management:</h3>
-						<ul>
-							<li>
-								Managing development projects, including task planning, time management, and communication with clients or team members
-							</li>
-						</ul>
 						
 					</div>
 				</div>
@@ -1360,8 +1333,8 @@
 							<h6 class="widget-title">Pages</h6>
 							<ul class="user-links">
 								<li><a href="/">Home</a></li>
-								<li><a href="about.html">About</a></li>
-								<li><a href="contact.html">Contact</a></li>
+								<li><a href="/about">About</a></li>
+								<li><a href="/contact">Contact</a></li>
 								<li><a href="#">Privacy policy</a></li>
 							</ul>
 						</div>
@@ -1417,23 +1390,23 @@
 <!-- Scroll To Top -->
 <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
 
-
 <script src="js/jquery.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/jquery.fancybox.js"></script>
-<script src="js/jquery-ui.js"></script>
-<script src="js/wow.js"></script>
-<script src="js/appear.js"></script>
-<script src="js/select2.min.js"></script>
-<script src="js/swiper.min.js"></script>
-<script src="js/owl.js"></script>
-<script src="js/script.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-<script type="text/javascript">
-	emailjs.init('yEWli_DucwIDejvND')
-</script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.fancybox.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/wow.js"></script>
+	<script src="js/appear.js"></script>
+	<script src="js/select2.min.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<script src="js/owl.js"></script>
+	<script src="js/script.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript">
+		emailjs.init('yEWli_DucwIDejvND')
+	</script>
 </body>
 
 </html>
