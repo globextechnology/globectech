@@ -11932,6 +11932,26 @@ ul.contact-details__info {
   margin: 0;
   color: #fff;
 }
+.privacy-policy-sec {
+  margin: 0 auto;
+    max-width: 1300px;
+    padding: 27px 30px;
+}
+.privacy-policy-sec h1{
+  font-size: 58px;
+    font-weight: 600;
+}
+.privacy-policy-sec h2{
+  font-size: 34px;
+  margin-top: 21px;
+}
+ul.list-first li{
+
+}
+
+
+
+
 @media  screen and (max-width: 767px) {
   .footer-bottom .inner-container {
     -webkit-box-orient: vertical;
