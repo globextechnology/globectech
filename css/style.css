@@ -11946,9 +11946,21 @@ ul.contact-details__info {
   margin-top: 21px;
 }
 ul.list-first li{
-
+  list-style-type: disclosure-closed;
+  margin-left: 47px;
+  margin-bottom: 9px;
+ 
 }
-
+ul.list-first li span{
+  font-weight: 600;
+}
+.privacy-policy-sec h3{
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.privacy-policy-sec p{
+  text-align: justify;
+}
 
 
 
@@ -12617,5 +12629,28 @@ select.contact_slect {
   }
   .team-contact-form .container{
     padding-top: 73px;
+  }
+  .privacy-policy-sec h1 {
+    font-size: 39px;
+  }
+  .privacy-policy-sec h2 {
+    font-size: 20px;
+  }
+  ul.list-first li {
+    margin-left: 26px;
+  }
+  .sec-title h1 {
+    font-size: 29px;
+    margin-top: 14px;
+  }
+  section>.container{
+    padding-top: 50px;
+  }
+  .footer-logo img {
+    max-width: 61%;
+    margin-bottom: 26px;
+  }
+  .sec-title h2{
+    font-size: 33px;
   }
 }
