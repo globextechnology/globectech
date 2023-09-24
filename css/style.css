@@ -12488,6 +12488,34 @@ select.contact_slect {
 	animation-timing-function: ease-out;
 	animation-iteration-count: infinite;
 }
+.portfolio-sec .nav-pills .nav-link.active{
+  background: var(--gradient-1);
+  font-family: var(--sec-title-font-family);
+}
+.portfolio-sec .nav-pills .nav-link{
+  font-family: var(--sec-title-font-family);
+  font-weight: 600;
+  font-size: 18px;
+}
+.portfolio__inner {
+  margin: 60px 0;
+}
+.portfolio__inner .nav{
+  justify-content: center;
+}
+.portfolio-row{
+  display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 28px;
+    margin-top: 53px;
+}
+.potfolio-col img{
+  max-width: 100%;
+}
+
+
+
+
 
 @keyframes pulse {
 	0% {
