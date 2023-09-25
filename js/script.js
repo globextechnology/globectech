@@ -706,6 +706,11 @@ const contactForm = document.getElementById("form");
                 errorElement.textContent = "Email sent successfully!";
             },
             function(error) {
+				btn.value = 'Send Email';
+				let inputs = document.querySelectorAll("#fullName, #email, #countryCode, #services, #message, #phone");
+				inputs.forEach(input => {
+					input.value = '';
+				});
                 errorElement.textContent = "Error sending email. Please try again later.";
             }
         );
