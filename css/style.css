@@ -11995,6 +11995,7 @@ ul.list-first li span {
 
 
 
+
 @media screen and (max-width: 767px) {
   .footer-bottom .inner-container {
     -webkit-box-orient: vertical;
@@ -12003,7 +12004,6 @@ ul.list-first li span {
     flex-direction: column;
     text-align: left;
   }
-
   .contact-details__info {
     flex-direction: column;
   }
@@ -12708,13 +12708,18 @@ select.contact_slect {
   #counter li h2 {
     font-size: 42px;
   }
+  .portfolio-row{
+    grid-template-columns: auto auto !important;
+  }
 }
 
 @media screen and (max-width:767px) {
   .mobile-nav-toggler {
     display: block;
   }
-
+  .portfolio-row{
+    grid-template-columns: auto !important;
+  }
   .main-menu {
     display: none;
   }

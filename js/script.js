@@ -651,110 +651,110 @@ var THEMEMASCOT = {};
 
 let btn = document.getElementById('button');
 const contactForm = document.getElementById("form");
-    const errorElement = document.getElementById("error");
+const errorElement = document.getElementById("error");
 
-    contactForm.addEventListener("submit", function (event) {
-        event.preventDefault();
-		
-        const fullName = document.getElementById("fullName").value;
-        const email = document.getElementById("email").value;
-        const message = document.getElementById("message").value;
-        const phone = document.getElementById("phone").value;
-        const services = document.getElementById("services").value;
-		const countryCode = document.getElementById("countryCode").value;
+contactForm.addEventListener("submit", function (event) {
+	event.preventDefault();
 
-        if (!fullName || !email || !message || !phone || !services || !countryCode) {
-            errorElement.textContent = "All fields are required.";
-			
-            return;
-        }
-		else{
-			
-			btn.value = 'Sending.....';
+	const fullName = document.getElementById("fullName").value;
+	const email = document.getElementById("email").value;
+	const message = document.getElementById("message").value;
+	const phone = document.getElementById("phone").value;
+	const services = document.getElementById("services").value;
+	const countryCode = document.getElementById("countryCode").value;
+
+	if (!fullName || !email || !message || !phone || !services || !countryCode) {
+		errorElement.textContent = "All fields are required.";
+
+		return;
+	}
+	else {
+
+		btn.value = 'Sending.....';
+	}
+
+	if (!isValidEmail(email)) {
+		errorElement.textContent = "Invalid email address.";
+		return;
+	}
+
+	// If all validations pass, send the email
+	sendEmail(fullName, email, message, phone, services, countryCode);
+});
+
+function isValidEmail(email) {
+	const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+	return emailRegex.test(email);
+}
+
+function sendEmail(fullName, email, message, phone, services, countryCode) {
+	emailjs.send("service_u4vdakv", "template_p8kdkbc", {
+		fullName: fullName,
+		email: email,
+		message: message,
+		phone: phone,
+		services: services,
+		countryCode: countryCode
+
+	}).then(
+		function (response) {
+			btn.value = 'Send Email';
+			let inputs = document.querySelectorAll("#fullName, #email, #countryCode, #services, #message, #phone");
+			inputs.forEach(input => {
+				input.value = '';
+			});
+			errorElement.textContent = "Email sent successfully!";
+		},
+		function (error) {
+			btn.value = 'Send Email';
+			let inputs = document.querySelectorAll("#fullName, #email, #countryCode, #services, #message, #phone");
+			inputs.forEach(input => {
+				input.value = '';
+			});
+			errorElement.textContent = "Error sending email. Please try again later.";
 		}
-		
-        if (!isValidEmail(email)) {
-            errorElement.textContent = "Invalid email address.";
-            return;
-        }
-
-        // If all validations pass, send the email
-        sendEmail(fullName, email, message, phone, services, countryCode);
-    });
-
-    function isValidEmail(email) {
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        return emailRegex.test(email);
-    }
-
-    function sendEmail(fullName, email, message, phone, services, countryCode) {
-        emailjs.send("service_u4vdakv", "template_p8kdkbc", {
-            fullName: fullName,
-            email: email,
-            message: message,
-            phone :phone,
-            services: services,
-			countryCode : countryCode
-
-        }).then(
-            function(response) {
-                btn.value = 'Send Email';
-				let inputs = document.querySelectorAll("#fullName, #email, #countryCode, #services, #message, #phone");
-				inputs.forEach(input => {
-					input.value = '';
-				});
-                errorElement.textContent = "Email sent successfully!";
-            },
-            function(error) {
-				btn.value = 'Send Email';
-				let inputs = document.querySelectorAll("#fullName, #email, #countryCode, #services, #message, #phone");
-				inputs.forEach(input => {
-					input.value = '';
-				});
-                errorElement.textContent = "Error sending email. Please try again later.";
-            }
-        );
-    }
-
-	var counted = 0;
-$(window).scroll(function() {
-      
-var oTop = $('#counter').offset().top - window.innerHeight;
-if (counted == 0 && $(window).scrollTop() > oTop) {
-$('.count').each(function() {
-var $this = $(this),
-countTo = $this.attr('data-count');
-$({
-countNum: $this.text()
-}).animate({
-  countNum: countTo
-},
-      
-{
-      
-  duration: 2000,
-  easing: 'swing',
-  step: function() {
-  $this.text(Math.floor(this.countNum));
-},
-  complete: function() {
-  $this.text(this.countNum);
+	);
 }
-      
-});
-});
-  counted = 1;
-}
-      
+
+var counted = 0;
+$(window).scroll(function () {
+
+	var oTop = $('#counter').offset().top - window.innerHeight;
+	if (counted == 0 && $(window).scrollTop() > oTop) {
+		$('.count').each(function () {
+			var $this = $(this),
+				countTo = $this.attr('data-count');
+			$({
+				countNum: $this.text()
+			}).animate({
+				countNum: countTo
+			},
+
+				{
+
+					duration: 2000,
+					easing: 'swing',
+					step: function () {
+						$this.text(Math.floor(this.countNum));
+					},
+					complete: function () {
+						$this.text(this.countNum);
+					}
+
+				});
+		});
+		counted = 1;
+	}
+
 });
 
 
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-		(function(){
-		var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-		s1.async=true;
-		s1.src='https://embed.tawk.to/6512dab50f2b18434fdab02a/1hb8qclq5';
-		s1.charset='UTF-8';
-		s1.setAttribute('crossorigin','*');
-		s0.parentNode.insertBefore(s1,s0);
-		})();
+var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+(function () {
+	var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+	s1.async = true;
+	s1.src = 'https://embed.tawk.to/6512dab50f2b18434fdab02a/1hb8qclq5';
+	s1.charset = 'UTF-8';
+	s1.setAttribute('crossorigin', '*');
+	s0.parentNode.insertBefore(s1, s0);
+})();
