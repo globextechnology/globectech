@@ -12663,7 +12663,7 @@ select.contact_slect {
   content: "";
   position: absolute;
   border-radius: 50%;
-  padding: 25px;
+  padding: 26px;
   border: 5px solid #25d366;
   opacity: 0.75;
   animation-name: pulse-border;
