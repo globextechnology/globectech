@@ -11924,7 +11924,10 @@ ul.contact-details__info {
 .user-links li a:hover:before {
   width: 100%;
 }
-
+.user-links li a img{
+  width: 19px;
+  margin-right: 9px;
+}
 /*=== Footer Bottom ===*/
 .footer-bottom {
   position: relative;
