@@ -51,7 +51,7 @@
 					<div class="nav-outer">
 						<nav class="nav main-menu">
 							<ul class="navigation">
-								<li ><a href="/">Home</a></li>
+								<li><a href="/">Home</a></li>
 								<li><a href="/about">About</a></li>
 
 								<li><a href="/services">Services</a>
@@ -67,7 +67,7 @@
 
 
 					<div class="outer-box">
-						
+
 						<!-- Mobile Nav toggler -->
 						<div class="mobile-nav-toggler"><span class="icon lnr-icon-bars"></span></div>
 					</div>
@@ -81,7 +81,7 @@
 				<!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
 				<nav class="menu-box">
 					<div class="upper-box">
-						
+
 						<div class="close-btn"><i class="icon fa fa-times"></i></div>
 					</div>
 
@@ -107,7 +107,7 @@
 						</li>
 						<li>
 							<!-- Contact Info Box -->
-							
+
 						</li>
 					</ul>
 
@@ -145,7 +145,7 @@
 						<div class="logo">
 							<a href="/"><img src="images/logoo.png" alt="globextechnology"></a>
 						</div>
-						
+
 						<!--Right Col-->
 						<div class="nav-outer">
 							<!-- Main Menu -->
@@ -161,7 +161,8 @@
 							<div class="mobile-nav-toggler"><span class="icon lnr-icon-bars"></span></div>
 						</div>
 						<div class="outer-box">
-							<a href="tel:+923210009044"><i class="icon lnr-icon-phone-handset"></i> <span>+92-321-0009044</span></a>
+							<a href="tel:+923210009044"><i class="icon lnr-icon-phone-handset"></i>
+								<span>+92-321-0009044</span></a>
 
 						</div>
 					</div>
@@ -202,14 +203,18 @@
 									<div class="mb-3">
 										<select id="services" name="services" class="form-control contact_slect">
 											<option value="">Select a Services</option>
-											<option value="WordPress">WordPress</option>
-											<option value="Shopify">Shopify</option>
-											<option value="Custom Website">Custom Website</option>
-											<option value="Logo Design">Logo Design</option>
-											<option value="UI Design">UI Design</option>
+											<option value="Full Stack Development">Full Stack Development</option>
+											<option value="WordPress Development">WordPress Development</option>
+											<option value="Custom Website Development">Custom Website Development
+											</option>
+											<option value="Custom Software Development">Custom Software Development
+											</option>
+											<option value="Shopify Development">Shopify Development</option>
+											<option value="Graphic Design">Graphic Design</option>
+											<option value="UI/UX Design">UI/UX Design</option>
 											<option value="Digital Marketing">Digital Marketing</option>
-											<option value="SEO/Link Building">SEO/Link Building</option>
-											<option value="Social Media Marketing">Social Media Marketing</option>
+											<option value="SEO(Search Engine Optimization)">SEO(Search Engine
+												Optimization)</option>
 										</select>
 									</div>
 								</div>
@@ -1308,7 +1313,7 @@
 										<a href="mailto:info@globextechnology.com">info@globextechnology.com</a>
 									</div>
 								</li>
-								
+
 							</ul>
 						</div>
 					</div>
@@ -1342,7 +1347,7 @@
 									<img src="./images/footer-logo.png" alt="globextechnology" />
 								</a>
 								<p>Transforming Ideas into Innovative Software Solutions and
-								Crafting Digital Experiences to Empower Your Business.</p>
+									Crafting Digital Experiences to Empower Your Business.</p>
 							</div>
 						</div>
 
@@ -1364,7 +1369,7 @@
 							<div class="footer-widget">
 								<h6 class="widget-title">Contact</h6>
 								<ul class="user-links">
-									
+
 									<li><a href="mailto:info@globextechnology.com">info@globextechnology.com</a></li>
 									<li><a href="tel:+923210009044">+92 321 0009044</a></li>
 								</ul>
@@ -1376,11 +1381,16 @@
 							<div class="footer-widget social-links-widget">
 								<h6 class="widget-title">Follow</h6>
 								<ul class="social-icon-one">
-									<li><a href="https://www.facebook.com/people/Globex-Technology/61551087565827/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-									<li><a href="https://twitter.com/GlobexTech" target="_blank"><i class="fab fa-twitter"></i></a></li>
-									<li><a href="https://www.linkedin.com/company/98676986/admin/feed/posts/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-									<li><a href="https://www.instagram.com/globextechnologyofficial/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-									<li><a href="https://join.skype.com/invite/vVDQt5l3M6pf" target="_blank"><i class="fab fa-skype"></i></a></li>
+									<li><a href="https://www.facebook.com/people/Globex-Technology/61551087565827/"
+											target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+									<li><a href="https://twitter.com/GlobexTech" target="_blank"><i
+												class="fab fa-twitter"></i></a></li>
+									<li><a href="https://www.linkedin.com/company/98676986/admin/feed/posts/"
+											target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+									<li><a href="https://www.instagram.com/globextechnologyofficial/" target="_blank"><i
+												class="fab fa-instagram"></i></a></li>
+									<li><a href="https://join.skype.com/invite/vVDQt5l3M6pf" target="_blank"><i
+												class="fab fa-skype"></i></a></li>
 								</ul>
 							</div>
 						</div>
@@ -1393,7 +1403,8 @@
 			<div class="footer-bottom">
 				<div class="auto-container">
 					<div class="inner-container" style="justify-content: center;">
-						<div class="copyright-text">Copy@ 2023 <a href="/">globextechnology</a> All Rights reserved</div>
+						<div class="copyright-text">Copy@ 2023 <a href="/">globextechnology</a> All Rights reserved
+						</div>
 
 					</div>
 				</div>

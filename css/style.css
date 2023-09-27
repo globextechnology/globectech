@@ -793,7 +793,8 @@ Scroll To Top style
 =======================*/
 .scroll-to-top {
   position: fixed;
-  right: unset;
+  /* right: unset; */
+  left: 20px;
   bottom: 20px;
   width: 40px;
   font-size: 16px;
@@ -1896,13 +1897,13 @@ Scroll To Top style
 }
 
 .zoom-one {
-  -webkit-animation: zoom-one 10s infinite linear;
-  animation: zoom-one 10s infinite linear;
+  -webkit-animation: zoom-one 5s infinite linear;
+  animation: zoom-one 5s infinite linear;
 }
 
 .zoom-two {
-  -webkit-animation: zoom-two 5s infinite linear;
-  animation: zoom-two 5s infinite linear;
+  -webkit-animation: zoom-two 1s infinite linear;
+  animation: zoom-two 1.3s infinite linear;
 }
 
 @-webkit-keyframes float {
@@ -3619,7 +3620,24 @@ Section Title
   background-image: url(../images/icons/wave.png);
   background-position: center;
   content: "";
+  bottom: 15%;
+  display: block;
+  position: absolute;
+  animation: linear infinite alternate;
+  animation-name: run;
+  animation-duration:10s;
 }
+@-webkit-keyframes run {
+  0% {
+    left: 0;
+    transform: translateX(0);
+  }
+  100% {
+    left: 100%;
+    transform: translateX(-100%);
+  }
+}
+
 
 @media only screen and (max-width: 1199px) {
   .sec-title .float-text::before {
@@ -12328,6 +12346,7 @@ ul.list-first li span {
   background: #00000040;
   padding: 28px 38px;
   position: relative;
+  border-radius: 20px;
 }
 
 .banner_col__form input[type=text],
