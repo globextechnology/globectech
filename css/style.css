@@ -12661,6 +12661,133 @@ select.contact_slect {
   transition: 0.4s;
   transform: translateY(10px);
 }
+.select-box {
+  position: relative;
+}
+#dropdown_contact{
+  margin-bottom: 22px;
+}
+.select-box input {
+  width: 100%;
+  padding: 11px 10px;
+  background-color: transparent;
+  outline: none;
+  height: 100%;
+  color: #ffffff9c;
+}
+#dropdown_contact input[type="tel"] {
+  border-radius: 0 .5rem .5rem 0;
+}
+.selected-option {
+  
+  border-radius: .5rem;
+  overflow: hidden;
+  border: 1px solid #ffffff9c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.selected-option div{
+  position: relative;
+  background-color: #eee;
+  text-align: center;
+  cursor: pointer;
+  padding: 7px 24px 7px 15px;
+  display: flex;
+  align-items: center;
+}
+.selected-option div::after{
+  position: absolute;
+  content: "";
+  right: 6px;
+  top: 0;
+  transform: translateY(-50%) rotate(45deg);
+  width: 10px;
+  height: 10px;
+  border-right: 0.12rem solid #111;
+  border-bottom: 0.12rem solid #111;;
+  transition: .2s;
+  bottom: 0;
+  margin: auto;
+}
+.selected-option div.active::after{
+  transform: translateY(0%) rotate(225deg);
+}
+.select-box .options {
+  position: absolute;
+  top: 4rem;
+  width: 100%;
+  border-radius: .5rem;
+  display: none;
+}
+.select-box .options.active {
+  display: block;
+  background: #eee;
+  z-index: 9999;
+  padding: 7px 6px;
+}
+.select-box .options::before {
+  position: absolute;
+  content: "";
+  left: 1rem;
+  top: -1.2rem;
+  width: 0;
+  height: 0;
+  border: .6rem solid transparent;
+  border-bottom-color: #eee;
+}
+input.search-box {
+  color: #fff;
+  border-radius: .5rem .5rem 0 0;
+  padding: 1.4rem 1rem;
+}
+.select-box ol {
+  list-style: none;
+  max-height: 23rem;
+  overflow: overlay;
+}
+.select-box ol::-webkit-scrollbar {
+  width: 0.6rem;
+}
+.select-box ol::-webkit-scrollbar-thumb {
+  width: 0.4rem;
+  height: 3rem;
+  background-color: #ccc;
+  border-radius: .4rem;
+}
+.select-box ol li {
+  padding: 5px 7px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.select-box ol li.hide {
+  display: none;
+}
+.select-box ol li:not(:last-child) {
+  border-bottom: .1rem solid #eee;
+}
+.select-box ol li:hover {
+  background-color: lightcyan;
+}
+.select-box ol li .country-name {
+  margin-left: .4rem;
+}
+.options input[type="text"]{
+  color: #9c8d8de8;
+  border: 1px solid #9c8d8de8;
+  padding: 11px 16px;
+}
+.options input[type="text"]::placeholder{
+  color: #9c8d8de8;
+}
+#dropdown_contact .form-control{
+  background-color: #fff !important;
+  border-radius: 0.25rem !important;
+}
+#dropdown_contact__inner input[type="tel"]{
+  color: #686a6f;
+}
 
 
 
@@ -12868,5 +12995,11 @@ select.contact_slect {
 
   .sec-title h2 {
     font-size: 33px;
+  }
+  #form .error {
+    font-size: 4.4vw;
+  }
+  .form-contacts .error{
+    bottom: -65px !important;
   }
 }

@@ -663,7 +663,7 @@ contactForm.addEventListener("submit", function (event) {
 	const services = document.getElementById("services").value;
 	const countryCode = document.getElementById("countryCode").value;
 
-	if (!fullName || !email || !message || !phone || !services || !countryCode) {
+	if (!fullName || !email || !message || !phone || !services ) {
 		errorElement.textContent = "All fields are required.";
 
 		return;
@@ -675,6 +675,7 @@ contactForm.addEventListener("submit", function (event) {
 
 	if (!isValidEmail(email)) {
 		errorElement.textContent = "Invalid email address.";
+		btn.value = "Let's discuss"
 		return;
 	}
 
@@ -716,6 +717,7 @@ function sendEmail(fullName, email, message, phone, services, countryCode) {
 	);
 }
 
+// counter
 var counted = 0;
 $(window).scroll(function () {
 
