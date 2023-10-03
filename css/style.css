@@ -12371,7 +12371,7 @@ ul.list-first li span {
   border-radius: 8px;
   padding: 6px 12px;
   width: 100%;
-  color: #ffffff9c;
+  color: #fff;
 }
 
 .banner_col__form input[type=number] {
@@ -12393,6 +12393,10 @@ ul.list-first li span {
   font-size: 18px;
   font-weight: 500;
   margin-top: 14px;
+}
+
+.banner_col__form input[type=submit]:hover{
+  background: var(--gradient-1);
 }
 
 .banner_form_row {
@@ -12686,7 +12690,7 @@ select.contact_slect {
   background-color: transparent;
   outline: none;
   height: 100%;
-  color: #ffffff9c;
+  color: #fff;
 }
 #dropdown_contact input[type="tel"] {
   border-radius: 0 .5rem .5rem 0;
@@ -12702,7 +12706,7 @@ select.contact_slect {
 }
 .selected-option div{
   position: relative;
-  background-color: #eee;
+  background-color: #fff;
   text-align: center;
   cursor: pointer;
   padding: 7px 24px 7px 15px;
@@ -12735,7 +12739,7 @@ select.contact_slect {
 }
 .select-box .options.active {
   display: block;
-  background: #eee;
+  background: #fff;
   z-index: 9999;
   padding: 7px 6px;
 }
@@ -12747,7 +12751,7 @@ select.contact_slect {
   width: 0;
   height: 0;
   border: .6rem solid transparent;
-  border-bottom-color: #eee;
+  border-bottom-color: #fff;
 }
 input.search-box {
   color: #fff;
@@ -12787,7 +12791,7 @@ input.search-box {
   margin-left: .4rem;
 }
 .options input[type="text"]{
-  color: #9c8d8de8;
+  color: #000;
   border: 1px solid #9c8d8de8;
   padding: 11px 16px;
 }

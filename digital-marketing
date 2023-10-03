@@ -35,7 +35,7 @@
 				</div>
 				<div class="contact_col outer-box ">
 					<a href="tel:+923210009044"><i class="icon lnr-icon-phone-handset"></i>
-						<span>+92-321-0009044</span></a>
+						<span>+92 321 0009044</span></a>
 				</div>
 			</div>
 		</div>
@@ -96,7 +96,7 @@
 							<div class="contact-info-box">
 								<i class="icon lnr-icon-phone-handset"></i>
 								<span class="title">Call Now</span>
-								<a href="tel:+923210009044">+92-321-0009044</a>
+								<a href="tel:+923210009044">+92 321 0009044</a>
 							</div>
 						</li>
 						<li>
@@ -163,7 +163,7 @@
 							<div class="mobile-nav-toggler"><span class="icon lnr-icon-bars"></span></div>
 						</div>
 						<div class="outer-box">
-							<a href="tel:+923210009044"><i class="icon lnr-icon-phone-handset"></i> <span>+92-321-0009044</span></a>
+							<a href="tel:+923210009044"><i class="icon lnr-icon-phone-handset"></i> <span>+92 321 0009044</span></a>
 
 						</div>
 					</div>
@@ -1500,10 +1500,14 @@
 				<div class="auto-container">
 					<div class="inner-container" style="justify-content: center;">
 <<<<<<< HEAD
+<<<<<<< HEAD
 						<div class="copyright-text">Copy@ 2023 <a href="/">globextechnology</a> All Rights reserved</div>
 =======
 						<div class="copyright-text">Copy@ 2023 <a href="/">Globex Technology</a> All Rights reserved</div>
 >>>>>>> 2b00082 (changes update)
+=======
+						<div class="copyright-text">Copyright © 2023 <a href="/">Globex Technology</a> All Rights reserved</div>
+>>>>>>> e34269c (changes update)
 
 					</div>
 				</div>
