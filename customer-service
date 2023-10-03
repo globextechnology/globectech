@@ -12,9 +12,14 @@
 	<link href="css/style.css" rel="stylesheet">
 	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 	<link rel="icon" href="images/favicon.png" type="image/x-icon">
+<<<<<<< HEAD
 	<title>Customer Services | Dedicated Support & Satisfaction</title>
 
 
+=======
+	<link rel="canonical" href="https://www.globextechnology.com/customer-service" />
+	<title>Customer Services | Dedicated Support & Satisfaction</title>
+>>>>>>> 2b00082 (changes update)
 </head>
 
 <body>
@@ -199,6 +204,7 @@
 							<input type="text" name="email" id="email" placeholder="Enter Email Address">
 
 						</div>
+<<<<<<< HEAD
 						<div class="dropdown_contact" id="dropdown_contact">
 							<select class="demo" id="countryCode" name="countryCode">
 
@@ -1212,11 +1218,30 @@
 							<div class="field">
 								<input type="number" name="phone" id="phone" placeholder="Enter phone number">
 
+=======
+						<div id="dropdown_contact">
+					
+							<div class="select-box">
+								<div class="selected-option">
+									<div>
+										<span class="iconify" data-icon="flag:gb-4x3"></span>
+										<strong>+44</strong>
+									</div>
+									<input type="tel" name="phone" id="phone" placeholder="Phone Number">
+								</div>
+								<div class="options">
+									<input type="text" class="search-box" id="countryCode" name="countryCode" placeholder="Search Country Name">
+									<ol>
+						
+									</ol>
+								</div>
+>>>>>>> 2b00082 (changes update)
 							</div>
 						</div>
 						<div class="field">
 							<select class="demo" id="services" name="services">
 								<option value="">Select a Services</option>
+<<<<<<< HEAD
 								<option value="WordPress">WordPress</option>
 								<option value="Shopify">Shopify</option>
 								<option value="Custom Website">Custom Website</option>
@@ -1225,11 +1250,29 @@
 								<option value="Digital Marketing">Digital Marketing</option>
 								<option value="SEO/Link Building">SEO/Link Building</option>
 								<option value="Social Media Marketing">Social Media Marketing</option>
+=======
+								<option value="Full Stack Development">Full Stack Development</option>
+								<option value="WordPress Development">WordPress Development</option>
+								<option value="Custom Website Development">Custom Website Development</option>
+								<option value="Custom Software Development">Custom Software Development</option>
+								<option value="Shopify Development">Shopify Development</option>
+								<option value="Graphic Design">Graphic Design</option>
+								<option value="UI/UX Design">UI/UX Design</option>
+								<option value="Digital Marketing">Digital Marketing</option>
+								<option value="SEO(Search Engine Optimization)">SEO(Search Engine Optimization)
+								</option>
+								<!-- <option value="Social Media Marketing">Social Media Marketing</option> -->
+>>>>>>> 2b00082 (changes update)
 							</select>
 
 						</div>
 						<div class="field">
+<<<<<<< HEAD
 							<textarea rows="3" placeholder="Talk about project" id="message" name="message"></textarea>
+=======
+							<textarea rows="3" placeholder="Talk about project" id="message"
+								name="message"></textarea>
+>>>>>>> 2b00082 (changes update)
 
 						</div>
 
@@ -1394,9 +1437,31 @@
 							<div class="footer-widget">
 								<h6 class="widget-title">Contact</h6>
 								<ul class="user-links">
+<<<<<<< HEAD
 									
 									<li><a href="mailto:info@globextechnology.com">info@globextechnology.com</a></li>
 									<li><a href="tel:+923210009044">+92 321 0009044</a></li>
+=======
+									<li>
+										<img src="./images/icons/email.png" alt="Globex Technology" />
+										<a href="mailto:info@globextechnology.com" target="_blank">	
+											info@globextechnology.com
+										</a>
+									</li>
+									<li>
+										<img src="./images/icons/call.png" alt="Globex Technology" />
+										<a href="tel:+923210009044" target="_blank">+92 321 0009044</a>
+									</li>
+									
+									<li>
+										<img src="./images/icons/social.png" alt="Globex Technology" />
+										<a href="https://join.skype.com/invite/vVDQt5l3M6pf" target="_blank">Globex Technology</a>
+									</li>
+									<li>
+										<img src="./images/icons/whatsapp.png" alt="Globex Technology" />
+										<a href="https://wa.me/+923210009044" target="_blank">+92 321 0009044</a>
+									</li>
+>>>>>>> 2b00082 (changes update)
 								</ul>
 							</div>
 						</div>
@@ -1410,7 +1475,10 @@
 									<li><a href="https://twitter.com/GlobexTech" target="_blank"><i class="fab fa-twitter"></i></a></li>
 									<li><a href="https://www.linkedin.com/company/98676986/admin/feed/posts/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
 									<li><a href="https://www.instagram.com/globextechnologyofficial/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+<<<<<<< HEAD
 									<li><a href="https://join.skype.com/invite/vVDQt5l3M6pf" target="_blank"><i class="fab fa-skype"></i></a></li>
+=======
+>>>>>>> 2b00082 (changes update)
 								</ul>
 							</div>
 						</div>
@@ -1423,7 +1491,11 @@
 			<div class="footer-bottom">
 				<div class="auto-container">
 					<div class="inner-container" style="justify-content: center;">
+<<<<<<< HEAD
 						<div class="copyright-text">Copy@ 2023 <a href="/">globextechnology</a> All Rights reserved</div>
+=======
+						<div class="copyright-text">Copy@ 2023 <a href="/">Globex Technology</a> All Rights reserved</div>
+>>>>>>> 2b00082 (changes update)
 
 					</div>
 				</div>
@@ -1432,10 +1504,14 @@
 		<!--End Main Footer -->
 
 	</div>
+<<<<<<< HEAD
 	<!-- End Page Wrapper -->
 	<a href="https://wa.me/+923210009044" target="_blank" class="btn-whatsapp-pulse btn-whatsapp-pulse-border">
 		<i class="fab fa-whatsapp"></i>
 	</a>
+=======
+	
+>>>>>>> 2b00082 (changes update)
 	<!-- Scroll To Top -->
 	<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
 
@@ -1457,6 +1533,11 @@
 	<script type="text/javascript">
 		emailjs.init('tGYXxDed0VbL-UjJ-')
 	</script>
+<<<<<<< HEAD
+=======
+	<script src="js/contact.js"></script>
+	<script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+>>>>>>> 2b00082 (changes update)
 </body>
 
 </html>

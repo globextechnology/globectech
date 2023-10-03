@@ -14,6 +14,10 @@
 	<link href="css/style.css" rel="stylesheet">
 	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 	<link rel="icon" href="images/favicon.png" type="image/x-icon">
+<<<<<<< HEAD
+=======
+	<link rel="canonical" href="https://www.globextechnology.com/contact" />
+>>>>>>> 2b00082 (changes update)
 	<title>Discover Innovative Software Solutions | Globex Technology</title>
 
 </head>
@@ -181,7 +185,11 @@
 				<div class="row justify-content-center">
 					<div class="col-lg-8">
 						<!-- Contact Form -->
+<<<<<<< HEAD
 						<form id="form" style="position: relative;">
+=======
+						<form id="form" style="position: relative;" class="form-contacts">
+>>>>>>> 2b00082 (changes update)
 							<div class="row">
 								<div class="col-sm-6">
 									<div class="mb-3">
@@ -199,7 +207,11 @@
 								</div>
 							</div>
 							<div class="row">
+<<<<<<< HEAD
 								<div class="col-sm-6">
+=======
+								<div class="col-sm-12">
+>>>>>>> 2b00082 (changes update)
 									<div class="mb-3">
 										<select id="services" name="services" class="form-control contact_slect">
 											<option value="">Select a Services</option>
@@ -218,6 +230,7 @@
 										</select>
 									</div>
 								</div>
+<<<<<<< HEAD
 								<div class="col-sm-6">
 									<div class="mb-3">
 										<select id="countryCode" name="countryCode" class="contact_slect form-control">
@@ -1257,6 +1270,30 @@
 										<div class="field">
 											<input type="number" class="form-control contact_number" name="phone"
 												id="phone" placeholder="Enter phone number">
+=======
+							
+								<div class="col-sm-12">
+									<div class="mb-3">
+										<div class="field">
+											<div id="dropdown_contact">
+						
+												<div class="select-box" id="dropdown_contact__inner">
+													<div class="selected-option form-control">
+														<div>
+															<span class="iconify" data-icon="flag:gb-4x3"></span>
+															<strong>+44</strong>
+														</div>
+														<input type="tel" name="phone" id="phone" placeholder="Phone Number">
+													</div>
+													<div class="options">
+														<input type="text" class="search-box" id="countryCode" name="countryCode" placeholder="Search Country Name">
+														<ol>
+											
+														</ol>
+													</div>
+												</div>
+											</div>
+>>>>>>> 2b00082 (changes update)
 										</div>
 									</div>
 								</div>
@@ -1338,7 +1375,11 @@
 			<!--Widgets Section-->
 			<div class="widgets-section">
 				<div class="auto-container">
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> 2b00082 (changes update)
 					<div class="row">
 						<!--Footer Column-->
 						<div class="footer-column col-xl-3 col-lg-12 col-md-12">
@@ -1347,10 +1388,17 @@
 									<img src="./images/footer-logo.png" alt="globextechnology" />
 								</a>
 								<p>Transforming Ideas into Innovative Software Solutions and
+<<<<<<< HEAD
 									Crafting Digital Experiences to Empower Your Business.</p>
 							</div>
 						</div>
 
+=======
+								Crafting Digital Experiences to Empower Your Business.</p>
+							</div>
+						</div>
+	
+>>>>>>> 2b00082 (changes update)
 						<!--Footer Column-->
 						<div class="footer-column col-xl-3 col-lg-4 col-md-6">
 							<div class="footer-widget services-widget">
@@ -1363,12 +1411,17 @@
 								</ul>
 							</div>
 						</div>
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> 2b00082 (changes update)
 						<!--Footer Column-->
 						<div class="footer-column col-xl-3 col-lg-4 col-md-6">
 							<div class="footer-widget">
 								<h6 class="widget-title">Contact</h6>
 								<ul class="user-links">
+<<<<<<< HEAD
 
 									<li><a href="mailto:info@globextechnology.com">info@globextechnology.com</a></li>
 									<li><a href="tel:+923210009044">+92 321 0009044</a></li>
@@ -1376,11 +1429,37 @@
 							</div>
 						</div>
 
+=======
+									<li>
+										<img src="./images/icons/email.png" alt="Globex Technology" />
+										<a href="mailto:info@globextechnology.com" target="_blank">	
+											info@globextechnology.com
+										</a>
+									</li>
+									<li>
+										<img src="./images/icons/call.png" alt="Globex Technology" />
+										<a href="tel:+923210009044" target="_blank">+92 321 0009044</a>
+									</li>
+									
+									<li>
+										<img src="./images/icons/social.png" alt="Globex Technology" />
+										<a href="https://join.skype.com/invite/vVDQt5l3M6pf" target="_blank">Globex Technology</a>
+									</li>
+									<li>
+										<img src="./images/icons/whatsapp.png" alt="Globex Technology" />
+										<a href="https://wa.me/+923210009044" target="_blank">+92 321 0009044</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+	
+>>>>>>> 2b00082 (changes update)
 						<!--Footer Column-->
 						<div class="footer-column col-xl-3 col-lg-4 col-md-12">
 							<div class="footer-widget social-links-widget">
 								<h6 class="widget-title">Follow</h6>
 								<ul class="social-icon-one">
+<<<<<<< HEAD
 									<li><a href="https://www.facebook.com/people/Globex-Technology/61551087565827/"
 											target="_blank"><i class="fab fa-facebook-f"></i></a></li>
 									<li><a href="https://twitter.com/GlobexTech" target="_blank"><i
@@ -1399,13 +1478,32 @@
 				</div>
 			</div>
 
+=======
+									<li><a href="https://www.facebook.com/people/Globex-Technology/61551087565827/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+									<li><a href="https://twitter.com/GlobexTech" target="_blank"><i class="fab fa-twitter"></i></a></li>
+									<li><a href="https://www.linkedin.com/company/98676986/admin/feed/posts/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+									<li><a href="https://www.instagram.com/globextechnologyofficial/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+								</ul>
+							</div>
+						</div>
+	
+					</div>
+				</div>
+			</div>
+	
+>>>>>>> 2b00082 (changes update)
 			<!--Footer Bottom-->
 			<div class="footer-bottom">
 				<div class="auto-container">
 					<div class="inner-container" style="justify-content: center;">
+<<<<<<< HEAD
 						<div class="copyright-text">Copy@ 2023 <a href="/">globextechnology</a> All Rights reserved
 						</div>
 
+=======
+						<div class="copyright-text">Copy@ 2023 <a href="/">Globex Technology</a> All Rights reserved</div>
+	
+>>>>>>> 2b00082 (changes update)
 					</div>
 				</div>
 			</div>
@@ -1413,11 +1511,15 @@
 		<!--End Main Footer -->
 
 	</div>
+<<<<<<< HEAD
 	<!-- End Page Wrapper -->
 
 	<a href="https://wa.me/+923210009044" target="_blank" class="btn-whatsapp-pulse btn-whatsapp-pulse-border">
 		<i class="fab fa-whatsapp"></i>
 	</a>
+=======
+	
+>>>>>>> 2b00082 (changes update)
 	<!-- Scroll To Top -->
 	<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
 
@@ -1434,7 +1536,12 @@
 	<script src="js/owl.js"></script>
 	<script src="js/script.js"></script>
 
+<<<<<<< HEAD
 
+=======
+	<script src="js/contact.js"></script>
+	<script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+>>>>>>> 2b00082 (changes update)
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
