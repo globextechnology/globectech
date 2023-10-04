@@ -652,97 +652,109 @@ var THEMEMASCOT = {};
 let btn = document.getElementById('button');
 const contactForm = document.getElementById("form");
 <<<<<<< HEAD
+<<<<<<< HEAD
     const errorElement = document.getElementById("error");
+=======
+const errorElement = document.getElementById("error");
+>>>>>>> 09895ded19c21c2e09ab476dfc17e0d70e9fe70e
 
-    contactForm.addEventListener("submit", function (event) {
-        event.preventDefault();
-		
-        const fullName = document.getElementById("fullName").value;
-        const email = document.getElementById("email").value;
-        const message = document.getElementById("message").value;
-        const phone = document.getElementById("phone").value;
-        const services = document.getElementById("services").value;
-		const countryCode = document.getElementById("countryCode").value;
+contactForm.addEventListener("submit", function (event) {
+	event.preventDefault();
 
-        if (!fullName || !email || !message || !phone || !services || !countryCode) {
-            errorElement.textContent = "All fields are required.";
-			
-            return;
-        }
-		else{
-			
-			btn.value = 'Sending.....';
-		}
-		
-        if (!isValidEmail(email)) {
-            errorElement.textContent = "Invalid email address.";
-            return;
-        }
+	const fullName = document.getElementById("fullName").value;
+	const email = document.getElementById("email").value;
+	const message = document.getElementById("message").value;
+	const phone = document.getElementById("phone").value;
+	const services = document.getElementById("services").value;
+	const countryCode = document.getElementById("countryCode").value;
 
-        // If all validations pass, send the email
-        sendEmail(fullName, email, message, phone, services, countryCode);
-    });
+	if (!fullName || !email || !message || !phone || !services ) {
+		errorElement.textContent = "All fields are required.";
 
-    function isValidEmail(email) {
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        return emailRegex.test(email);
-    }
+		return;
+	}
+	else {
 
-    function sendEmail(fullName, email, message, phone, services, countryCode) {
-        emailjs.send("service_u4vdakv", "template_p8kdkbc", {
-            fullName: fullName,
-            email: email,
-            message: message,
-            phone :phone,
-            services: services,
-			countryCode : countryCode
+		btn.value = 'Sending.....';
+	}
 
-        }).then(
-            function(response) {
-                btn.value = 'Send Email';
-				let inputs = document.querySelectorAll("#fullName, #email, #countryCode, #services, #message, #phone");
-				inputs.forEach(input => {
-					input.value = '';
-				});
-                errorElement.textContent = "Email sent successfully!";
-            },
-            function(error) {
-				btn.value = 'Send Email';
-				let inputs = document.querySelectorAll("#fullName, #email, #countryCode, #services, #message, #phone");
-				inputs.forEach(input => {
-					input.value = '';
-				});
-                errorElement.textContent = "Error sending email. Please try again later.";
-            }
-        );
-    }
+	if (!isValidEmail(email)) {
+		errorElement.textContent = "Invalid email address.";
+		btn.value = "Let's discuss"
+		return;
+	}
 
-	var counted = 0;
-$(window).scroll(function() {
-      
-var oTop = $('#counter').offset().top - window.innerHeight;
-if (counted == 0 && $(window).scrollTop() > oTop) {
-$('.count').each(function() {
-var $this = $(this),
-countTo = $this.attr('data-count');
-$({
-countNum: $this.text()
-}).animate({
-  countNum: countTo
-},
-      
-{
-      
-  duration: 2000,
-  easing: 'swing',
-  step: function() {
-  $this.text(Math.floor(this.countNum));
-},
-  complete: function() {
-  $this.text(this.countNum);
-}
-      
+	// If all validations pass, send the email
+	sendEmail(fullName, email, message, phone, services, countryCode);
 });
+
+function isValidEmail(email) {
+	const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+	return emailRegex.test(email);
+}
+
+function sendEmail(fullName, email, message, phone, services, countryCode) {
+	emailjs.send("service_u4vdakv", "template_p8kdkbc", {
+		fullName: fullName,
+		email: email,
+		message: message,
+		phone: phone,
+		services: services,
+		countryCode: countryCode
+
+	}).then(
+		function (response) {
+			btn.value = 'Send Email';
+			let inputs = document.querySelectorAll("#fullName, #email, #countryCode, #services, #message, #phone");
+			inputs.forEach(input => {
+				input.value = '';
+			});
+			errorElement.textContent = "Email sent successfully!";
+		},
+		function (error) {
+			btn.value = 'Send Email';
+			let inputs = document.querySelectorAll("#fullName, #email, #countryCode, #services, #message, #phone");
+			inputs.forEach(input => {
+				input.value = '';
+			});
+			errorElement.textContent = "Error sending email. Please try again later.";
+		}
+	);
+}
+
+// counter
+var counted = 0;
+$(window).scroll(function () {
+
+	var oTop = $('#counter').offset().top - window.innerHeight;
+	if (counted == 0 && $(window).scrollTop() > oTop) {
+		$('.count').each(function () {
+			var $this = $(this),
+				countTo = $this.attr('data-count');
+			$({
+				countNum: $this.text()
+			}).animate({
+				countNum: countTo
+			},
+
+				{
+
+					duration: 2000,
+					easing: 'swing',
+					step: function () {
+						$this.text(Math.floor(this.countNum));
+					},
+					complete: function () {
+						$this.text(this.countNum);
+					}
+
+				});
+		});
+		counted = 1;
+	}
+
+});
+<<<<<<< HEAD
 });
   counted = 1;
 }
@@ -847,6 +859,8 @@ $(window).scroll(function () {
 	}
 
 });
+=======
+>>>>>>> 09895ded19c21c2e09ab476dfc17e0d70e9fe70e
 
 
 var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
@@ -857,5 +871,9 @@ var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
 	s1.charset = 'UTF-8';
 	s1.setAttribute('crossorigin', '*');
 	s0.parentNode.insertBefore(s1, s0);
+<<<<<<< HEAD
 })();
 >>>>>>> 2b00082 (changes update)
+=======
+})();
+>>>>>>> 09895ded19c21c2e09ab476dfc17e0d70e9fe70e

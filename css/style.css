@@ -11943,13 +11943,19 @@ ul.contact-details__info {
   width: 100%;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> 09895ded19c21c2e09ab476dfc17e0d70e9fe70e
 .user-links li img{
   width: 19px;
   margin-right: 9px;
 }
+<<<<<<< HEAD
 >>>>>>> 2b00082 (changes update)
+=======
+>>>>>>> 09895ded19c21c2e09ab476dfc17e0d70e9fe70e
 /*=== Footer Bottom ===*/
 .footer-bottom {
   position: relative;
@@ -12018,9 +12024,13 @@ ul.list-first li span {
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 2b00082 (changes update)
+=======
+
+>>>>>>> 09895ded19c21c2e09ab476dfc17e0d70e9fe70e
 @media screen and (max-width: 767px) {
   .footer-bottom .inner-container {
     -webkit-box-orient: vertical;
@@ -12030,9 +12040,12 @@ ul.list-first li span {
     text-align: left;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 2b00082 (changes update)
+=======
+>>>>>>> 09895ded19c21c2e09ab476dfc17e0d70e9fe70e
   .contact-details__info {
     flex-direction: column;
   }
@@ -12677,7 +12690,10 @@ select.contact_slect {
   transform: translateY(10px);
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 09895ded19c21c2e09ab476dfc17e0d70e9fe70e
 .select-box {
   position: relative;
 }
@@ -12805,7 +12821,10 @@ input.search-box {
 #dropdown_contact__inner input[type="tel"]{
   color: #686a6f;
 }
+<<<<<<< HEAD
 >>>>>>> 2b00082 (changes update)
+=======
+>>>>>>> 09895ded19c21c2e09ab476dfc17e0d70e9fe70e
 
 
 
@@ -12873,11 +12892,17 @@ input.search-box {
     font-size: 42px;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   .portfolio-row{
     grid-template-columns: auto auto !important;
   }
 >>>>>>> 2b00082 (changes update)
+=======
+  .portfolio-row{
+    grid-template-columns: auto auto !important;
+  }
+>>>>>>> 09895ded19c21c2e09ab476dfc17e0d70e9fe70e
 }
 
 @media screen and (max-width:767px) {
@@ -12885,12 +12910,18 @@ input.search-box {
     display: block;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
   .portfolio-row{
     grid-template-columns: auto !important;
   }
 >>>>>>> 2b00082 (changes update)
+=======
+  .portfolio-row{
+    grid-template-columns: auto !important;
+  }
+>>>>>>> 09895ded19c21c2e09ab476dfc17e0d70e9fe70e
   .main-menu {
     display: none;
   }
@@ -13022,12 +13053,39 @@ input.search-box {
     font-size: 33px;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 09895ded19c21c2e09ab476dfc17e0d70e9fe70e
   #form .error {
     font-size: 4.4vw;
   }
   .form-contacts .error{
     bottom: -65px !important;
   }
+<<<<<<< HEAD
 >>>>>>> 2b00082 (changes update)
+=======
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--theme-color3);
+  border-radius: 15px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gradient-2);
+>>>>>>> 09895ded19c21c2e09ab476dfc17e0d70e9fe70e
 }
