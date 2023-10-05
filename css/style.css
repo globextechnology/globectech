@@ -11781,7 +11781,8 @@ ul.contact-details__info {
 ***/
 .main-footer {
   position: relative;
-  background-color: #1f3c88;
+  /* background-color: #1f3c88; */
+  background: var(--gradient-1);
 }
 
 .main-footer .icon-object-3 {
