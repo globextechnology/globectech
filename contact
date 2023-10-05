@@ -114,10 +114,13 @@
 
 
 					<ul class="social-links">
-						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-						<li><a href="#"><i class="fab fa-pinterest"></i></a></li>
-						<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+						<li><a href="https://twitter.com/GlobexTech"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="https://www.facebook.com/globextechnologyofficial/"><i
+									class="fab fa-facebook-f"></i></a></li>
+						<li><a href="https://www.linkedin.com/company/globextechnology"><i
+									class="fab fa-linkedin-in"></i></a></li>
+						<li><a href="https://www.instagram.com/globextechnologyofficial/"><i
+									class="fab fa-instagram"></i></a></li>
 					</ul>
 				</nav>
 			</div><!-- End Mobile Menu -->
@@ -219,24 +222,26 @@
 										</select>
 									</div>
 								</div>
-							
+
 								<div class="col-sm-12">
 									<div class="mb-3">
 										<div class="field">
 											<div id="dropdown_contact">
-						
+
 												<div class="select-box" id="dropdown_contact__inner">
 													<div class="selected-option form-control">
 														<div>
 															<span class="iconify" data-icon="flag:gb-4x3"></span>
 															<strong>+44</strong>
 														</div>
-														<input type="tel" name="phone" id="phone" placeholder="Phone Number">
+														<input type="tel" name="phone" id="phone"
+															placeholder="Phone Number">
 													</div>
 													<div class="options">
-														<input type="text" class="search-box" id="countryCode" name="countryCode" placeholder="Search Country Name">
+														<input type="text" class="search-box" id="countryCode"
+															name="countryCode" placeholder="Search Country Name">
 														<ol>
-											
+
 														</ol>
 													</div>
 												</div>
@@ -322,7 +327,7 @@
 			<!--Widgets Section-->
 			<div class="widgets-section">
 				<div class="auto-container">
-	
+
 					<div class="row">
 						<!--Footer Column-->
 						<div class="footer-column col-xl-3 col-lg-12 col-md-12">
@@ -331,10 +336,10 @@
 									<img src="./images/footer-logo.png" alt="globextechnology" />
 								</a>
 								<p>Transforming Ideas into Innovative Software Solutions and
-								Crafting Digital Experiences to Empower Your Business.</p>
+									Crafting Digital Experiences to Empower Your Business.</p>
 							</div>
 						</div>
-	
+
 						<!--Footer Column-->
 						<div class="footer-column col-xl-3 col-lg-4 col-md-6">
 							<div class="footer-widget services-widget">
@@ -347,7 +352,7 @@
 								</ul>
 							</div>
 						</div>
-	
+
 						<!--Footer Column-->
 						<div class="footer-column col-xl-3 col-lg-4 col-md-6">
 							<div class="footer-widget">
@@ -355,7 +360,7 @@
 								<ul class="user-links">
 									<li>
 										<img src="./images/icons/email.png" alt="Globex Technology" />
-										<a href="mailto:info@globextechnology.com" target="_blank">	
+										<a href="mailto:info@globextechnology.com" target="_blank">
 											info@globextechnology.com
 										</a>
 									</li>
@@ -363,10 +368,11 @@
 										<img src="./images/icons/call.png" alt="Globex Technology" />
 										<a href="tel:+923210009044" target="_blank">+92 321 0009044</a>
 									</li>
-									
+
 									<li>
 										<img src="./images/icons/social.png" alt="Globex Technology" />
-										<a href="https://join.skype.com/invite/vVDQt5l3M6pf" target="_blank">Globex Technology</a>
+										<a href="https://join.skype.com/invite/vVDQt5l3M6pf" target="_blank">Globex
+											Technology</a>
 									</li>
 									<li>
 										<img src="./images/icons/whatsapp.png" alt="Globex Technology" />
@@ -375,30 +381,35 @@
 								</ul>
 							</div>
 						</div>
-	
+
 						<!--Footer Column-->
 						<div class="footer-column col-xl-3 col-lg-4 col-md-12">
 							<div class="footer-widget social-links-widget">
 								<h6 class="widget-title">Follow</h6>
 								<ul class="social-icon-one">
-									<li><a href="https://www.facebook.com/globextechnologyofficial/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-									<li><a href="https://twitter.com/GlobexTech" target="_blank"><i class="fab fa-twitter"></i></a></li>
-									<li><a href="https://www.linkedin.com/company/globextechnology" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-									<li><a href="https://www.instagram.com/globextechnologyofficial/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+									<li><a href="https://www.facebook.com/globextechnologyofficial/" target="_blank"><i
+												class="fab fa-facebook-f"></i></a></li>
+									<li><a href="https://twitter.com/GlobexTech" target="_blank"><i
+												class="fab fa-twitter"></i></a></li>
+									<li><a href="https://www.linkedin.com/company/globextechnology" target="_blank"><i
+												class="fab fa-linkedin-in"></i></a></li>
+									<li><a href="https://www.instagram.com/globextechnologyofficial/" target="_blank"><i
+												class="fab fa-instagram"></i></a></li>
 								</ul>
 							</div>
 						</div>
-	
+
 					</div>
 				</div>
 			</div>
-	
+
 			<!--Footer Bottom-->
 			<div class="footer-bottom">
 				<div class="auto-container">
 					<div class="inner-container" style="justify-content: center;">
-						<div class="copyright-text">Copyright © 2023 <a href="/">Globex Technology</a> All Rights reserved</div>
-	
+						<div class="copyright-text">Copyright © 2023 <a href="/">Globex Technology</a> All Rights
+							reserved</div>
+
 					</div>
 				</div>
 			</div>
@@ -406,7 +417,7 @@
 		<!--End Main Footer -->
 
 	</div>
-	
+
 	<!-- Scroll To Top -->
 	<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
 
