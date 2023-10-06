@@ -3699,6 +3699,7 @@ Section Title
 }
 
 .banner {
+  background-image: url(/images/main-slider/main-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 50px 0;
