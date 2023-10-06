@@ -1902,9 +1902,18 @@ Scroll To Top style
 }
 
 .zoom-two {
-  -webkit-animation: zoom-two 1s infinite linear;
-  animation: zoom-two 1.3s infinite linear;
+  /* -webkit-animation: zoom-two 1s infinite linear;
+  animation: zoom-two 1.3s infinite linear; */
+  animation: animName 15s linear infinite;
 }
+@keyframes animName {
+  0%{
+     transform: rotate(0deg);
+    }
+ 100%{
+     transform: rotate(360deg);
+    }
+ }
 
 @-webkit-keyframes float {
   0% {
@@ -3572,7 +3581,7 @@ Section Title
   position: relative;
   left: -40px;
   display: block;
-  font-size: 150px;
+  font-size: 120px;
   color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: rgba(14, 30, 42, 0.15);
