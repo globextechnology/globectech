@@ -2,11 +2,26 @@
 <html lang="en">
 
 <head>
+	 <!-- Google tag (gtag.js) -->
+	 <script
+	 async
+	 src="https://www.googletagmanager.com/gtag/js?id=G-ZELL5RCZZ5"
+   ></script>
+   <script>
+	 window.dataLayer = window.dataLayer || [];
+	 function gtag() {
+	   dataLayer.push(arguments);
+	 }
+	 gtag("js", new Date());
+
+	 gtag("config", "G-ZELL5RCZZ5");
+   </script>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="Mobile applications, Android Development, IOS, Native Apps">
+	<meta name="author" content="Globex Technology">
 	<meta name="title" content="Mobile App Development Services | iOS & Android Apps">
-	<meta name="description"
-		content="Transform Your Ideas into Powerful Mobile Apps with Expert App Development Services. We specialize in creating innovative and user-friendly mobile applications for iOS and Android platforms.">
+	<meta name="description" content="Transform Your Ideas into Powerful Mobile Apps with Expert App Development Services. We specialize in creating innovative and user-friendly mobile applications for iOS and Android platforms.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
 	<!-- Stylesheets -->
@@ -15,7 +30,7 @@
 	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 	<link rel="icon" href="images/favicon.png" type="image/x-icon">
 	<link rel="canonical" href="https://www.globextechnology.com/app-development" />
-	<title>Mobile App Development Services | iOS & Android Apps - Globex Technology</title>
+	<title>Mobile App Development Services | iOS & Android Apps</title>
 
 </head>
 
@@ -44,7 +59,7 @@
 				<!-- Main box -->
 				<div class="main-box">
 					<div class="mobile-logo">
-						<div class="logo"><a href="/"><img src="images/logoo.png" alt=""></a>
+						<div class="logo"><a href="/"><img src="images/logoo.png" alt="globextechnology"></a>
 						</div>
 					</div>
 
@@ -144,7 +159,7 @@
 					<div class="inner-container">
 						<!--Logo-->
 						<div class="logo">
-							<a href="/" title=""><img src="images/logoo.png" alt="" title=""></a>
+							<a href="/" title=""><img src="images/logoo.png" alt="globextechnology" title=""></a>
 						</div>
 						
 						<!--Right Col-->
@@ -180,7 +195,7 @@
 				</div>
 				<div class="banner_col__form">
 					<div class="chat_icon">
-						<img src="./images/chat.png" alt="">
+						<img src="./images/chat.png" alt="globextechnology">
 						<p>CHAT
 							<span>WITH US TO AVAIL</span>
 
@@ -294,7 +309,7 @@
 					<div class="col-xl-8 col-lg-8">
 						<div class="services-details__content">
 							<img src="images/background/apps.jpg" alt="app development" />
-							<h3 class="mt-4">Mobile App Development Services</h3>
+							<h2 class="mt-4" style="font-size: 36px;">Mobile App Development Services</h2>
 							<p>At Globex Technology, we specialize in designing and developing mobile apps that provide
 								exceptional user experiences while meeting the unique needs of our clients. Our team of
 								expert developers, designers, and project managers work together to deliver top-notch

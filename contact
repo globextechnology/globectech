@@ -3,8 +3,24 @@
 
 
 <head>
+	 <!-- Google tag (gtag.js) -->
+	 <script
+	 async
+	 src="https://www.googletagmanager.com/gtag/js?id=G-ZELL5RCZZ5"
+   ></script>
+   <script>
+	 window.dataLayer = window.dataLayer || [];
+	 function gtag() {
+	   dataLayer.push(arguments);
+	 }
+	 gtag("js", new Date());
+
+	 gtag("config", "G-ZELL5RCZZ5");
+   </script>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="Web Development, Graphic Designing, Digital Marketing, Ecommerce, Mobile applications, UI/UX">
+	<meta name="author" content="Globex Technology">
 	<meta name="title" content="Empowering Excellence: Discover Innovative Software Solutions | Globex Technology">
 	<meta name="description"
 		content="Unlock the potential of technology with Globex Technology. Explore our portfolio of forward-thinking software solutions that elevate businesses. From tailored applications to robust systems, we're your partner in digital transformation">
@@ -44,7 +60,7 @@
 				<!-- Main box -->
 				<div class="main-box">
 					<div class="mobile-logo">
-						<div class="logo"><a href="/"><img src="images/logoo.png" alt=""></a>
+						<div class="logo"><a href="/"><img src="images/logoo.png" alt="globextechnology"></a>
 						</div>
 					</div>
 

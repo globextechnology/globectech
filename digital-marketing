@@ -3,8 +3,24 @@
 <title>Digital Marketing | SEO, Social Media & More</title>
 
 <head>
+	 <!-- Google tag (gtag.js) -->
+	 <script
+	 async
+	 src="https://www.googletagmanager.com/gtag/js?id=G-ZELL5RCZZ5"
+   ></script>
+   <script>
+	 window.dataLayer = window.dataLayer || [];
+	 function gtag() {
+	   dataLayer.push(arguments);
+	 }
+	 gtag("js", new Date());
+
+	 gtag("config", "G-ZELL5RCZZ5");
+   </script>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="Digital Marketing, SEO, Link building, Back Links, Content Writting">
+	<meta name="author" content="Globex Technology">
 	<meta name="title" content="Digital Marketing | SEO, Link building and keywords">
 	<meta name="description"
 		content="Elevate Your Online Presence with Expert Digital Marketing Services. We offer strategic solutions for SEO, social media, content creation, and more to help your business thrive in the digital landscape.">
@@ -23,7 +39,7 @@
 
 		<div class="top_menu__row">
 			<div class="logo-box-top">
-				<a href="/"><img src="images/logoo.png" alt=""></a>
+				<a href="/"><img src="images/logoo.png" alt="globextechnology"></a>
 			</div>
 			<div class="top-col">
 				<div class="email_col">
@@ -42,7 +58,7 @@
 				<!-- Main box -->
 				<div class="main-box">
 					<div class="mobile-logo">
-						<div class="logo"><a href="/"><img src="images/logoo.png" alt=""></a>
+						<div class="logo"><a href="/"><img src="images/logoo.png" alt="globextechnology"></a>
 						</div>
 					</div>
 
@@ -142,7 +158,7 @@
 					<div class="inner-container">
 						<!--Logo-->
 						<div class="logo">
-							<a href="/" title=""><img src="images/logoo.png" alt="" title=""></a>
+							<a href="/" title=""><img src="images/logoo.png" alt="globextechnology" title=""></a>
 						</div>
 						
 						<!--Right Col-->
@@ -179,7 +195,7 @@
 				</div>
 				<div class="banner_col__form">
 					<div class="chat_icon">
-						<img src="./images/chat.png" alt="">
+						<img src="./images/chat.png" alt="globextechnology">
 						<p>CHAT
 							<span>WITH US TO AVAIL</span>
 
@@ -294,7 +310,7 @@
 					<div class="col-xl-8 col-lg-8">
 						<div class="services-details__content">
 							<img src="images/background/seo.jpg" alt="digital marketing" />
-							<h3 class="mt-4">Digital Marketing </h3>
+							<h2 class="mt-4" style="font-size: 36px;">Digital Marketing </h2>
 							<p>In today's digital age, having a strong online presence is essential for businesses to
 								succeed. At [company name], we understand the importance of digital marketing and search
 								engine optimization (SEO) in driving traffic, leads, and sales. That's why we offer a

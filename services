@@ -2,8 +2,24 @@
 <html lang="en">
 
 <head>
+	<!-- Google tag (gtag.js) -->
+	<script
+	 async
+	 src="https://www.googletagmanager.com/gtag/js?id=G-ZELL5RCZZ5"
+    ></script>
+    <script>
+	 window.dataLayer = window.dataLayer || [];
+	 function gtag() {
+	   dataLayer.push(arguments);
+	 }
+	 gtag("js", new Date());
+
+	 gtag("config", "G-ZELL5RCZZ5");
+    </script>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="keywords" content="Web Development, Graphic Designing, Digital Marketing, Ecommerce, Mobile applications, UI/UX">
+<meta name="author" content="Globex Technology">
 <meta name="title" content="Leading Software Solutions for Businesses | Enhance Efficiency and Innovation">
 <meta name="description" content="Welcome to Globex Technology - Your Partner in Cutting-Edge Software Development and Innovation. Explore our services for custom websites, mobile apps, gaphic gesigning, digital marketing, social media marketing and CMS WordPress.">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -39,7 +55,7 @@
 			<!-- Main box -->
 			<div class="main-box">
 				<div class="mobile-logo">
-					<div class="logo"><a href="/"><img src="images/logoo.png" alt=""></a>
+					<div class="logo"><a href="/"><img src="images/logoo.png" alt="globextechnology"></a>
 					</div>
 				</div>
 
@@ -193,7 +209,7 @@
 						<div class="inner-box">
 							<div class="content">
 								<figure class="icon"><img src="images/graphic-designer.png" alt="Globex Technology"></figure>
-								<h4 class="title"><a href="/graphic-designing">Graphics Designing</a></h4>
+								<h2 class="title" style="font-size:24px"><a href="/graphic-designing">Graphics Designing</a></h2>
 								<div class="text">We specialize in crafting engaging interactive designs that captivate and connect.</div>
 								<a href="/graphic-designing" class="read-more"><i class="fa fa-arrow-right"></i></a>
 							</div>

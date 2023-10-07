@@ -1,8 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	 <!-- Google tag (gtag.js) -->
+	 <script
+	 async
+	 src="https://www.googletagmanager.com/gtag/js?id=G-ZELL5RCZZ5"
+   ></script>
+   <script>
+	 window.dataLayer = window.dataLayer || [];
+	 function gtag() {
+	   dataLayer.push(arguments);
+	 }
+	 gtag("js", new Date());
+
+	 gtag("config", "G-ZELL5RCZZ5");
+   </script>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="Full stack Web development, CMS, WordPress, Shopify">
+	<meta name="author" content="Globex Technology">
 	<meta name="title" content="Full Stack Web Development Services | Globex Technology">
 	<meta name="description" content="Empowering Businesses with Comprehensive Full Stack Web Development Services. Our team crafts end-to-end solutions, handling both front-end and back-end development to deliver robust and seamless web applications.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
