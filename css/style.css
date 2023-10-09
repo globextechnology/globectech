@@ -1796,25 +1796,28 @@ Scroll To Top style
 
 ***/
 .anim-icons {
-  position: absolute;
+  /* position: absolute;
   left: 0;
   top: 0;
   right: 0;
   height: 100%;
   width: 100%;
   max-width: 1170px;
-  margin: 0 auto;
+  margin: 0 auto; */
+  display: none;
 }
 
 .anim-icons.full-width {
-  max-width: 100%;
+  /* max-width: 100%; */
+  display: none;
 }
 
 .anim-icons .icon {
-  position: absolute;
+  /* position: absolute;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100%; */
+  display: none;
 }
 
 .icon-circle-1 {
