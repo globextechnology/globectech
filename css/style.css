@@ -11756,7 +11756,7 @@ ul.contact-details__info {
 }
 
 .contact-details__info li:hover .icon {
-  background-color: var(--gradient-2);
+  background-color: var(--theme-color3);
 }
 
 .contact-details__info li:hover .icon span {
