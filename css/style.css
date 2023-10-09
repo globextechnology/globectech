@@ -11854,10 +11854,6 @@ ul.contact-details__info {
   margin-top: 40px;
 }
 
-.footer-address a{
-  color: #ffffff;
-}
-
 @media only screen and (max-width: 1199px) {
   .main-footer .widget-title {
     margin-bottom: 10px;
