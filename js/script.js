@@ -689,7 +689,7 @@ function isValidEmail(email) {
 }
 
 function sendEmail(fullName, email, message, phone, services, countryCode) {
-	emailjs.send("service_u4vdakv", "template_p8kdkbc", {
+	emailjs.send("service_pte77kp", "template_5p3d53c", {
 		fullName: fullName,
 		email: email,
 		message: message,
