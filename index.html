@@ -24,6 +24,7 @@
     <meta name="description" content="Empowering innovation, Globex Technology turns ideas into digital reality, driving innovation a connected world for the future."/>
     <meta name="msvalidate.01" content="66B065FCCDB3AABA0843CB16E27BD352" />
     <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"/>
     <link href="css/style.css" rel="stylesheet" />
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
@@ -758,7 +759,8 @@
               >
                 <div class="portfolio-row">
                   <div class="potfolio-col">
-                    <a href="#">
+                    <a data-fancybox="gallery"
+                        data-src="./images/portfolio/dashboard.png">
                       <img
                         src="./images/portfolio/dashboard.png"
                         alt="globextechnology"
@@ -769,7 +771,8 @@
                     </a>
                   </div>
                   <div class="potfolio-col">
-                    <a href="#">
+                    <a data-fancybox="gallery"
+                      data-src="./images/portfolio/apx.png">
                       <img
                         src="./images/portfolio/apx.png"
                         alt="globextechnology"
@@ -780,7 +783,8 @@
                     </a>
                   </div>
                   <div class="potfolio-col">
-                    <a href="#">
+                    <a data-fancybox="gallery"
+                      data-src="./images/portfolio/gym.png">
                       <img
                         src="./images/portfolio/gym.png"
                         alt="globextechnology"
@@ -791,7 +795,8 @@
                     </a>
                   </div>
                   <div class="potfolio-col">
-                    <a href="#">
+                    <a data-fancybox="gallery"
+                      data-src="./images/portfolio/pp.png">
                       <img
                         src="./images/portfolio/pp.png"
                         alt="globextechnology"
@@ -802,7 +807,8 @@
                     </a>
                   </div>
                   <div class="potfolio-col">
-                    <a href="#">
+                    <a data-fancybox="gallery"
+                      data-src="./images/portfolio/shop.png">
                       <img
                         src="./images/portfolio/shop.png"
                         alt="globextechnology"
@@ -813,7 +819,8 @@
                     </a>
                   </div>
                   <div class="potfolio-col">
-                    <a href="#">
+                    <a data-fancybox="gallery"
+                        data-src="./images/portfolio/wiginston.png">
                       <img
                         src="./images/portfolio/wiginston.png"
                         alt="globextechnology"
@@ -834,7 +841,8 @@
               >
                 <div class="portfolio-row">
                   <div class="potfolio-col">
-                    <a href="#">
+                    <a data-fancybox="gallery"
+                        data-src="./images/portfolio/hyk.png">
                       <img
                         src="./images/portfolio/hyk.png"
                         alt="globextechnology"
@@ -846,7 +854,8 @@
                   </div>
 
                   <div class="potfolio-col">
-                    <a href="#">
+                    <a data-fancybox="gallery"
+                      data-src="./images/portfolio/linkia.png">
                       <img
                         src="./images/portfolio/linkia.png"
                         alt="globextechnology"
@@ -857,7 +866,8 @@
                     </a>
                   </div>
                   <div class="potfolio-col">
-                    <a href="#">
+                    <a data-fancybox="gallery"
+                      data-src="./images/portfolio/hyk.png">
                       <img
                         src="./images/portfolio/hyk.png"
                         alt="globextechnology"
@@ -877,7 +887,8 @@
               >
                 <div class="portfolio-row">
                   <div class="potfolio-col">
-                    <a href="#">
+                    <a data-fancybox="gallery"
+                    data-src="./images/portfolio/game.png">
                       <img
                         src="./images/portfolio/game.png"
                         alt="globextechnology"
@@ -889,7 +900,8 @@
                   </div>
 
                   <div class="potfolio-col">
-                    <a href="#">
+                    <a data-fancybox="gallery"
+                      data-src="./images/portfolio/oracle.png">
                       <img
                         src="./images/portfolio/oracle.png"
                         alt="globextechnology"
@@ -900,7 +912,8 @@
                     </a>
                   </div>
                   <div class="potfolio-col">
-                    <a href="#">
+                    <a data-fancybox="gallery"
+                      data-src="./images/portfolio/cbh.png">
                       <img
                         src="./images/portfolio/cbh.png"
                         alt="globextechnology"
@@ -1465,5 +1478,10 @@
     <script type="text/javascript">
       emailjs.init("tGYXxDed0VbL-UjJ-");
     </script>
+     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+     <script>
+       Fancybox.bind('[data-fancybox]', {
+       });    
+     </script>
   </body>
 </html>
