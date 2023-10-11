@@ -5940,7 +5940,7 @@ Section Title
   padding-bottom: 30px;
   border-bottom: 1px solid #eaeaea;
   margin-bottom: 40px;
-  height: 23vh;
+  /* height: 23vh; */
 }
 
 .testimonial-block-two .info-box {
