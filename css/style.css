@@ -13076,6 +13076,17 @@ input.search-box {
 .price_sec ul{
   border-top: 1px solid #80808073;
   padding: 19px 0;
+  height: 55vh;
+  overflow-y: scroll;
+}
+.price_sec.price_sec2 ul{
+  height: unset;
+}
+.price_sec2 p{
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-family: var(--title-font);
+  font-size: 18px;
 }
 .price_sec ul li{
   font-size: 18px;
