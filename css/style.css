@@ -13062,3 +13062,33 @@ input.search-box {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--gradient-2);
 }
+
+
+.price_sec{
+  border: 1px solid #1f3c88;
+    padding: 24px 24px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 16px #80808078;
+}
+.price_sec h6{
+  font-size: 32px;
+}
+.price_sec ul{
+  border-top: 1px solid #80808073;
+  padding: 19px 0;
+}
+.price_sec ul li{
+  font-size: 18px;
+  color: #414042;
+  margin-bottom: 7px;
+  font-weight: 400;
+  font-family: var(--title-font);
+}
+.price_sec a{
+  background: var(--gradient-1);
+  color: #fff;
+  font-family: var(--sec-title-font-family);
+  padding: 6px 19px;
+  text-align: center;
+  border-radius: 48px;
+}
