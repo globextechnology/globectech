@@ -12404,7 +12404,7 @@ ul.list-first li span {
 .banner_col__form input[type=submit] {
   color: #fff;
   width: 100%;
-  background: var(--theme-color3);
+  background: var(--gradient-1);
   padding: 8px 0;
   border-radius: 12px;
   font-size: 18px;
@@ -12413,7 +12413,7 @@ ul.list-first li span {
 }
 
 .banner_col__form input[type=submit]:hover{
-  background: var(--gradient-1);
+  background: var(--gradient-2);
 }
 
 .banner_form_row {
