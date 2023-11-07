@@ -3702,7 +3702,7 @@ Section Title
 }
 
 .banner {
-  background-image: url(/images/main-slider/main-bg.png);
+  background-image: url(/images/main-slider/main-bg.webp);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 50px 0;
@@ -12976,12 +12976,6 @@ input.search-box {
 
   .banner_col__form {
     padding: 28px 20px;
-  }
-
-  .banner {
-    height: unset;
-    background: #1f3c88;
-    background-image: none !important;
   }
 
   select.demo {
