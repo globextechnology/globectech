@@ -493,7 +493,6 @@
     <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/popper.min.js"></script>
-    <script src="js/jquery-ui.js"></script>
     <script src="js/wow.js"></script>
     <script src="js/appear.js"></script>
     <script src="js/select2.min.js"></script>
