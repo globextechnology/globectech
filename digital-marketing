@@ -222,7 +222,7 @@
 						</div>
 						<div class="field">
 							<select class="demo" id="services" name="services">
-								<option value="">s</option>
+								<option value="">Select Services</option>
 								<option value="Full Stack Development">Full Stack Development</option>
 								<option value="WordPress Development">WordPress Development</option>
 								<option value="Custom Website Development">Custom Website Development</option>

@@ -218,7 +218,7 @@
 						</div>
 					</div>
 					<select class="demo" id="services" name="services">
-						<option value="">Select a Services</option>
+						<option value="">Select Services</option>
 						<option value="Custom Software Development">
 						  Custom Software Development
 						</option>
