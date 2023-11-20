@@ -169,7 +169,7 @@
 	<!--End Main Header -->
 
 	<!-- Start main-content -->
-	<section class="page-title page-title2" style="background-image:linear-gradient(to right,#000000e0,#100f0ff2), url(images/background/page-title.jpg);">
+	<section class="page-title page-title2" style="background-color: #000000eb;">
 		<div class="auto-container">
 			<div class="title-outer text-center">
 				<h1 class="title">Services</h1>
@@ -195,7 +195,7 @@
 						<div class="inner-box">
 							<div class="content">
 								<figure class="icon"><img src="images/graphic-designer.webp" alt="Globex Technology"></figure>
-								<h2 class="title" style="font-size:24px"><a href="/graphic-designing">Graphics Designing</a></h2>
+								<h2 class="title" style="font-size:24px"><a href="/graphic-designing">Graphic Design</a></h2>
 								<div class="text">We specialize in crafting engaging interactive designs that captivate and connect.</div>
 								<a href="/graphic-designing" class="read-more"><i class="fa fa-arrow-right"></i></a>
 							</div>
@@ -346,16 +346,8 @@
 								<li><a href="https://www.linkedin.com/company/globextechnology" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
 								<li><a href="https://www.instagram.com/globextechnologyofficial/" target="_blank"><i class="fab fa-instagram"></i></a></li>
 							</ul>
-							<div class="footer-address">
-								<h6 class="widget-title-address">Address</h6>
-								<ul class="user-links">
-								  <li><a href="https://maps.app.goo.gl/mjLgdJXcqC9W144o6">House 2 Abbasi Street 88,
-									Krishan Nagar Lahore, Punjab 54000</a></li>
-								</ul>
-							  </div>
 						</div>
 					</div>
-
 				</div>
 			</div>
 		</div>

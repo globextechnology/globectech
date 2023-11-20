@@ -222,7 +222,7 @@
 						</div>
 						<div class="field">
 							<select class="demo" id="services" name="services">
-								<option value="">Select a Services</option>
+								<option value="">Select Services</option>
 								<option value="Full Stack Development">Full Stack Development</option>
 								<option value="WordPress Development">WordPress Development</option>
 								<option value="Custom Website Development">Custom Website Development</option>
@@ -447,16 +447,8 @@
 									<li><a href="https://www.linkedin.com/company/globextechnology" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
 									<li><a href="https://www.instagram.com/globextechnologyofficial/" target="_blank"><i class="fab fa-instagram"></i></a></li>
 								</ul>
-								<div class="footer-address">
-									<h6 class="widget-title-address">Address</h6>
-									<ul class="user-links">
-									  <li><a href="https://maps.app.goo.gl/mjLgdJXcqC9W144o6">House 2 Abbasi Street 88,
-										Krishan Nagar Lahore, Punjab 54000</a></li>
-									</ul>
-								  </div>
 							</div>
 						</div>
-
 					</div>
 				</div>
 			</div>
