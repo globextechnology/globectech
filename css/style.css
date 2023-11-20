@@ -12536,6 +12536,10 @@ animation-iteration-count: infinite;
 }
 
 @media screen and (max-width:800px) {
+  .blog-box img {
+   
+    height: 40vh;
+  }
   .privacy-policy-sec h1 {
     font-size: 46px;
   }
@@ -12569,6 +12573,7 @@ animation-iteration-count: infinite;
 }
 
 @media screen and (max-width:767px) {
+ 
 .mobile-nav-toggler {
   display: block;
 }
@@ -12814,4 +12819,17 @@ border-radius: 48px;
 .privacy-policy-sec img{
   margin-bottom: 50px;
   max-width: 100%;
+}
+
+@media screen and (max-width:767px) {
+  .blog-row{
+    grid-template-columns: auto;
+  }
+  .blog-box img{
+    height: unset;
+  }
+  .blog-box h2{
+    height: unset;
+    font-size: 22px;
+  }
 }
