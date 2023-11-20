@@ -169,7 +169,7 @@
 	<!--End Main Header -->
 
 	<!-- Start main-content -->
-	<section class="page-title page-title2" style="background-image:linear-gradient(to right,#000000e0,#100f0ff2), url(images/background/page-title.jpg);">
+	<section class="page-title page-title2" style="background-color: #000000eb;">
 		<div class="auto-container">
 			<div class="title-outer text-center">
 				<h1 class="title">Services</h1>
