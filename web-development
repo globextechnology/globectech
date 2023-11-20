@@ -216,23 +216,30 @@
 							</div>
 						</div>
 					</div>
-					<div class="field">
-						<select class="demo" id="services" name="services">
-							<option value="">Select a Services</option>
-							<option value="Full Stack Development">Full Stack Development</option>
-							<option value="WordPress Development">WordPress Development</option>
-							<option value="Custom Website Development">Custom Website Development</option>
-							<option value="Custom Software Development">Custom Software Development</option>
-							<option value="Shopify Development">Shopify Development</option>
-							<option value="Graphic Design">Graphic Design</option>
-							<option value="UI/UX Design">UI/UX Design</option>
-							<option value="Digital Marketing">Digital Marketing</option>
-							<option value="SEO(Search Engine Optimization)">SEO(Search Engine Optimization)
-							</option>
-							<!-- <option value="Social Media Marketing">Social Media Marketing</option> -->
-						</select>
-
-					</div>
+					<select class="demo" id="services" name="services">
+						<option value="">Select a Services</option>
+						<option value="Custom Software Development">
+						  Custom Software Development
+						</option>
+						<option value="Full Stack Development">
+						  Full Stack Web Development
+						</option>
+						<option value="WordPress Development">
+						  WordPress Development
+						</option>
+						<option value="Shopify Development">
+						  Shopify Development
+						</option>
+						<option value="App Development">
+						  App Development
+						</option>
+						<option value="Graphic Design">Graphic Design</option>
+						<option value="UI/UX Design">UI/UX Design</option>
+						<option value="Digital Marketing">Digital Marketing</option>
+						<option value="SEO(Search Engine Optimization)">
+						  SEO(Search Engine Optimization)
+						</option>
+					  </select>
 					<div class="field">
 						<textarea rows="3" placeholder="Talk about project" id="message"
 							name="message"></textarea>
