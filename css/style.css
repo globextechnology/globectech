@@ -11511,16 +11511,6 @@ letter-spacing: 0.01em;
 margin-bottom: 25px;
 }
 
-.widget-title-address {
-position: relative;
-font-size: 22px;
-font-weight: 500;
-color: #ffffff;
-line-height: 1.2em;
-letter-spacing: 0.01em;
-margin-top: 40px;
-}
-
 @media only screen and (max-width: 1199px) {
 .main-footer .widget-title {
   margin-bottom: 10px;
