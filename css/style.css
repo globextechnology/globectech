@@ -9059,7 +9059,7 @@ background-color: var(--theme-color2);
 }
 
 /***   ==================================================================== Page Title ====================================================================  ***/
-@-webkit-keyframes "ripple" {
+@-webkit-keyframes ripple {
 70% {
   -webkit-box-shadow: 0 0 0 70px rgba(255, 255, 255, 0);
   box-shadow: 0 0 0 70px rgba(255, 255, 255, 0);
@@ -9071,7 +9071,7 @@ background-color: var(--theme-color2);
 }
 }
 
-@keyframes "ripple" {
+@keyframes ripple{
 70% {
   -webkit-box-shadow: 0 0 0 70px rgba(255, 255, 255, 0);
   box-shadow: 0 0 0 70px rgba(255, 255, 255, 0);
