@@ -5155,7 +5155,7 @@ Section Title
   top: 0;
   width: 101px;
   height: 60px;
-  background-image: url(../images/icons/icon-chat.png);
+  background-image: url(../images/icons/icon-chat.webp);
   overflow: hidden;
 }
 @media only screen and (max-width: 767px) {
@@ -5282,7 +5282,7 @@ Section Title
   top: 0;
   width: 101px;
   height: 60px;
-  background-image: url(../images/icons/icon-chat.png);
+  background-image: url(../images/icons/icon-chat.webp);
   overflow: hidden;
 }
 @media only screen and (max-width: 767px) {

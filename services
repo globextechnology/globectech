@@ -207,7 +207,7 @@
 					<div class="service-block wow fadeInLeft" data-wow-delay="300ms">
 						<div class="inner-box">
 							<div class="content">
-								<figure class="icon"><img src="images/web-development.png" alt="Globex Technology"></figure>
+								<figure class="icon"><img src="images/web-development.webp" alt="Globex Technology"></figure>
 								<h4 class="title"><a href="/web-development">Web Development</a></h4>
 								<div class="text">We offer dynamic and responsive websites to elevate your online presence.</div>
 								<a href="/web-development" class="read-more"><i class="fa fa-arrow-right"></i></a>
@@ -219,7 +219,7 @@
 					<div class="service-block wow fadeInLeft" data-wow-delay="600ms">
 						<div class="inner-box">
 							<div class="content">
-								<figure class="icon"><img src="images/mobile.png" alt="Globex Technology"></figure>
+								<figure class="icon"><img src="images/mobile.webp" alt="Globex Technology"></figure>
 								<h4 class="title"><a href="/app-development">App Development</a></h4>
 								<div class="text">Delivering innovative mobile app solutions to enhance user experiences on the go.</div>
 								<a href="/app-development" class="read-more"><i class="fa fa-arrow-right"></i></a>
@@ -234,7 +234,7 @@
 					<div class="service-block wow fadeInRight">
 						<div class="inner-box">
 							<div class="content">
-								<figure class="icon"><img src="images/call-center.png" alt="Globex Technology"></figure>
+								<figure class="icon"><img src="images/call-center.webp" alt="Globex Technology"></figure>
 								<h4 class="title"><a href="/customer-service">Customer Service</a></h4>
 								<div class="text">Your satisfaction is our priority, and we're here to exceed your service expectations.</div>
 								<a href="/customer-service" class="read-more"><i class="fa fa-arrow-right"></i></a>
@@ -246,7 +246,7 @@
 					<div class="service-block wow fadeInRight" data-wow-delay="300ms">
 						<div class="inner-box">
 							<div class="content">
-								<figure class="icon"><img src="images/performance.png" alt="Globex Technology"></figure>
+								<figure class="icon"><img src="images/performance.webp" alt="Globex Technology"></figure>
 								<h4 class="title"><a href="/digital-marketing">Digital Marketing</a></h4>
 								<div class="text">Your partner in achieving digital excellence through targeted marketing approaches.</div>
 								<a href="/digital-marketing" class="read-more"><i class="fa fa-arrow-right"></i></a>
@@ -258,7 +258,7 @@
 					<div class="service-block wow fadeInRight" data-wow-delay="600ms">
 						<div class="inner-box">
 							<div class="content">
-								<figure class="icon"><img src="images/social-media.png" alt="Globex Technology"></figure>
+								<figure class="icon"><img src="images/social-media.webp" alt="Globex Technology"></figure>
 								<h4 class="title"><a href="/social-media-marketing">Social Media Marketing</a></h4>
 								<div class="text">Empowering businesses with impactful social media campaigns tailored for growth and engagement</div>
 								<a href="/social-media-marketing" class="read-more"><i class="fa fa-arrow-right"></i></a>

@@ -87,29 +87,6 @@ var THEMEMASCOT = {};
 		});
 	}
 
-	//Hidder bar
-	if ($('.hidden-bar').length) {
-		//Menu Toggle Btn
-		$('.toggle-hidden-bar').on('click', function () {
-			$('body').addClass('active-hidden-bar');
-		});
-
-		//Menu Toggle Btn
-		$('.hidden-bar-back-drop, .hidden-bar .close-btn').on('click', function () {
-			$('body').removeClass('active-hidden-bar');
-		});
-	}
-
-	//Header Search
-	if ($('.search-btn').length) {
-		$('.search-btn').on('click', function () {
-			$('.main-header').addClass('moblie-search-active');
-		});
-		$('.close-search, .search-back-drop').on('click', function () {
-			$('.main-header').removeClass('moblie-search-active');
-		});
-	}
-
 
 	//Banner Carousel
 	if ($('.banner-carousel').length) {
