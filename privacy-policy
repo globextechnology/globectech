@@ -20,7 +20,7 @@
         <!-- top menu -->
 		<div class="top_menu__row">
 			<div class="logo-box-top">
-				<a href="/"><img src="images/logoo.png" alt="globextechnology"></a>
+				<a href="/"><img src="images/globex-technology-logo.webp" alt="globextechnology"></a>
 			</div>
 			<div class="top-col">
 				<div class="email_col">
@@ -37,7 +37,7 @@
 				<!-- Main box -->
 				<div class="main-box">
 					<div class="mobile-logo">
-						<div class="logo"><a href="/"><img src="images/logoo.png" alt="globextechnology"></a>
+						<div class="logo"><a href="/"><img src="images/globex-technology-logo.webp" alt="globextechnology"></a>
 						</div>
 					</div>
 
@@ -138,7 +138,7 @@
 					<div class="inner-container">
 						<!--Logo-->
 						<div class="logo">
-							<a href="/" title=""><img src="images/logoo.png" alt="globextechnology" title=""></a>
+							<a href="/" title=""><img src="images/globex-technology-logo.webp" alt="globextechnology" title=""></a>
 						</div>
 						
 						<!--Right Col-->
@@ -310,7 +310,7 @@
 						<div class="footer-column col-xl-3 col-lg-12 col-md-12">
 							<div class="footer-logo">
 								<a href="/">
-									<img src="./images/footer-logo.png" alt="globextechnology" />
+									<img src="./images/footer-logo.webp" alt="globextechnology" />
 								</a>
 								<p>Transforming Ideas into Innovative Software Solutions and
 								Crafting Digital Experiences to Empower Your Business.</p>

@@ -25,7 +25,7 @@
 	
 	<div class="top_menu__row">
 		<div class="logo-box-top">
-			<a href="/"><img src="images/logoo.png" alt="Globex Technology"></a>
+			<a href="/"><img src="images/footer-logo.webp" alt="Globex Technology"></a>
 		</div>
 		<div class="top-col">
 			<div class="email_col">
@@ -42,7 +42,7 @@
 			<!-- Main box -->
 			<div class="main-box">
 				<div class="mobile-logo">
-					<div class="logo"><a href="/"><img src="images/logoo.png" alt="globextechnology"></a>
+					<div class="logo"><a href="/"><img src="images/globex-technology-logo.webp" alt="globextechnology"></a>
 					</div>
 				</div>
 
@@ -139,7 +139,7 @@
 				<div class="inner-container">
 					<!--Logo-->
 					<div class="logo">
-						<a href="/"><img src="images/logoo.png" alt="globextechnology"></a>
+						<a href="/"><img src="images/globex-technology-logo.webp" alt="globextechnology"></a>
 					</div>
 					
 					<!--Right Col-->
@@ -189,7 +189,7 @@
 				<div class="image-column col-lg-4 col-md-12 col-sm-12">
 					<div class="image-box">
 						<div class="bg-icon-one zoom-one"></div>
-						<figure class="image wow fadeInLeft"><img src="images/resource/image-1.png" alt="Globex Technology"></figure>
+						<figure class="image wow fadeInLeft"><img src="images/resource/image-1.webp" alt="Globex Technology"></figure>
 					</div>
 				</div>
 
@@ -242,7 +242,7 @@
 					<div class="footer-column col-xl-3 col-lg-12 col-md-12">
 						<div class="footer-logo">
 							<a href="/">
-								<img src="./images/footer-logo.png" alt="globextechnology" />
+								<img src="./images/footer-logo.webp" alt="globextechnology" />
 							</a>
 							<p>Transforming Ideas into Innovative Software Solutions and
 							Crafting Digital Experiences to Empower Your Business.</p>

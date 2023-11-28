@@ -70,7 +70,7 @@
       <!-- top menu -->
       <div class="top_menu__row">
         <div class="logo-box-top">
-          <a href="/"><img src="images/logoo.png" alt="globextechnology" /></a>
+          <a href="/"><img src="images/globex-technology-logo.webp" alt="globextechnology" /></a>
         </div>
         <div class="top-col">
           <div class="email_col">
@@ -93,7 +93,7 @@
           <div class="main-box">
             <div class="mobile-logo">
               <div class="logo">
-                <a href="/"><img src="images/logoo.png" alt="globextechnology" /></a>
+                <a href="/"><img src="images/globex-technology-logo.webp" alt="globextechnology" /></a>
               </div>
             </div>
 
@@ -199,7 +199,7 @@
               <!--Logo-->
               <div class="logo">
                 <a href="/"
-                  ><img src="images/logoo.png" alt="Globex Technology"
+                  ><img src="images/globex-technology-logo.webp" alt="Globex Technology"
                 /></a>
               </div>
 
@@ -328,7 +328,7 @@
                 <div class="footer-logo">
                   <a href="/">
                     <img
-                      src="./images/footer-logo.png"
+                      src="./images/footer-logo.webp"
                       alt="globextechnology"
                     />
                   </a>
