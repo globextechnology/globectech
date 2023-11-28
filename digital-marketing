@@ -183,17 +183,12 @@
 						<div class="banner_form_row">
 							<div class="field">
 								<input type="text" name="fullName" id="fullName" placeholder="Enter Full Name">
-
 							</div>
-
 						</div>
-
 						<div class="field">
 							<input type="text" name="email" id="email" placeholder="Enter Email Address">
-
 						</div>
 						<div id="dropdown_contact">
-					
 							<div class="select-box">
 								<div class="selected-option">
 									<div>
@@ -205,7 +200,6 @@
 								<div class="options">
 									<input type="text" class="search-box" id="countryCode" name="countryCode" placeholder="Search Country Name">
 									<ol>
-						
 									</ol>
 								</div>
 							</div>
@@ -223,17 +217,11 @@
 								<option value="Digital Marketing">Digital Marketing</option>
 								<option value="SEO(Search Engine Optimization)">SEO(Search Engine Optimization)
 								</option>
-								<!-- <option value="Social Media Marketing">Social Media Marketing</option> -->
 							</select>
-
 						</div>
 						<div class="field">
-							<textarea rows="3" placeholder="Talk about project" id="message"
-								name="message"></textarea>
-
+							<textarea rows="3" placeholder="Talk about project" id="message" name="message"></textarea>
 						</div>
-
-
 						<input type="submit" value="Let's discuss" id="button">
 						<p id="error" class="error"></p>
 					</form>

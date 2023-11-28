@@ -172,17 +172,12 @@
 					<div class="banner_form_row">
 						<div class="field">
 							<input type="text" name="fullName" id="fullName" placeholder="Enter Full Name">
-
 						</div>
-
 					</div>
-
 					<div class="field">
 						<input type="text" name="email" id="email" placeholder="Enter Email Address">
-
 					</div>
 					<div id="dropdown_contact">
-				
 						<div class="select-box">
 							<div class="selected-option">
 								<div>
@@ -194,42 +189,28 @@
 							<div class="options">
 								<input type="text" class="search-box" id="countryCode" name="countryCode" placeholder="Search Country Name">
 								<ol>
-					
 								</ol>
 							</div>
 						</div>
 					</div>
-					<select class="demo" id="services" name="services">
-						<option value="">Select Services</option>
-						<option value="Custom Software Development">
-						  Custom Software Development
-						</option>
-						<option value="Full Stack Development">
-						  Full Stack Web Development
-						</option>
-						<option value="WordPress Development">
-						  WordPress Development
-						</option>
-						<option value="Shopify Development">
-						  Shopify Development
-						</option>
-						<option value="App Development">
-						  App Development
-						</option>
-						<option value="Graphic Design">Graphic Design</option>
-						<option value="UI/UX Design">UI/UX Design</option>
-						<option value="Digital Marketing">Digital Marketing</option>
-						<option value="SEO(Search Engine Optimization)">
-						  SEO(Search Engine Optimization)
-						</option>
-					  </select>
 					<div class="field">
-						<textarea rows="3" placeholder="Talk about project" id="message"
-							name="message"></textarea>
-
+						<select class="demo" id="services" name="services">
+							<option value="">Select Services</option>
+							<option value="Full Stack Development">Full Stack Development</option>
+							<option value="WordPress Development">WordPress Development</option>
+							<option value="Custom Website Development">Custom Website Development</option>
+							<option value="Custom Software Development">Custom Software Development</option>
+							<option value="Shopify Development">Shopify Development</option>
+							<option value="Graphic Design">Graphic Design</option>
+							<option value="UI/UX Design">UI/UX Design</option>
+							<option value="Digital Marketing">Digital Marketing</option>
+							<option value="SEO(Search Engine Optimization)">SEO(Search Engine Optimization)
+							</option>
+						</select>
 					</div>
-
-
+					<div class="field">
+						<textarea rows="3" placeholder="Talk about project" id="message" name="message"></textarea>
+					</div>
 					<input type="submit" value="Let's discuss" id="button">
 					<p id="error" class="error"></p>
 				</form>
