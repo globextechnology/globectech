@@ -22,9 +22,9 @@
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "Globex Technology",
-        "image": "http://globextechnology.com/images/logoo.png",
+        "image": "https://globextechnology.com/images/globex-technology-logo.webp",
         "@id": "",
-        "url": "http://globextechnology.com/",
+        "url": "https://globextechnology.com/",
         "telephone": "+923210009044",
         "priceRange": "$$$",
         "address": {
