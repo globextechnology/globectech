@@ -3,11 +3,8 @@
 @import url("owl.css");
 @import url("jquery-ui.css");
 @import url("linear.css");
-@import url("select2.min.css");
 @import url("fontawesome.css");
 @import url("flaticon.css");
-@import url("tm-bs-mp.css");
-@import url("tm-utility-classes.css");
 
 :root {
 --theme-color1: #1f3c88;
