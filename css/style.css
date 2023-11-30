@@ -9346,6 +9346,7 @@ color: #9c8d8de8;
 #dropdown_contact .form-control {
 background-color: #f4f5f8;
 border: 1px solid #f4f5f8;
+border-radius: 0.25rem;
 }
 
 #dropdown_contact__inner input[type="tel"] {
