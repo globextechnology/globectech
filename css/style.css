@@ -5,9 +5,6 @@
 @import url("linear.css");
 @import url("fontawesome.css");
 @import url("flaticon.css");
-@import url("select2.min.css");
-@import url("tm-bs-mp.css");
-@import url("tm-utility-classes.css");
 
 :root {
 --theme-color1: #1f3c88;
@@ -9010,7 +9007,8 @@ color: #000;
 }
 
 select.contact_slect {
-background-color: #fff !important;
+background-color: #f4f5f8;
+border: 1px solid #f4f5f8;
 }
 
 .page-title.page-title2 {
@@ -9346,8 +9344,8 @@ color: #9c8d8de8;
 }
 
 #dropdown_contact .form-control {
-background-color: #fff !important;
-border-radius: 0.25rem !important;
+background-color: #f4f5f8;
+border: 1px solid #f4f5f8;
 }
 
 #dropdown_contact__inner input[type="tel"] {
