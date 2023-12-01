@@ -4,6 +4,7 @@
 @import url("linear.css");
 @import url("fontawesome.css");
 @import url("flaticon.css");
+@import url("animate.css");
 
 :root {
 --theme-color1: #1f3c88;
@@ -1176,6 +1177,8 @@ display: none;
 .select2-container--default .select2-selection--single {
 border-radius: 0;
 }
+
+/* =================================================owl css================================================== */
 
 .default-navs .owl-next,
 .default-navs .owl-prev {
