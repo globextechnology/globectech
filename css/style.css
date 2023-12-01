@@ -7308,94 +7308,6 @@ border-radius: 15px;
 overflow: hidden;
 }
 
-.help-shape-1 {
-position: absolute;
-bottom: -215px;
-left: -95px;
-width: 220px;
-height: 500px;
-background-color: #303030;
-mix-blend-mode: soft-light;
-border-radius: 150px;
--webkit-transform: rotate(45deg);
-transform: rotate(45deg);
-z-index: -1;
-}
-
-.help-shape-2 {
-position: absolute;
-top: -118px;
-right: -130px;
-width: 180px;
-height: 350px;
-background-color: #fff;
-mix-blend-mode: soft-light;
-border-radius: 186px;
--webkit-transform: rotate(48deg);
-transform: rotate(48deg);
-}
-
-.help-icon {
-height: 73px;
-width: 73px;
-background-color: #fff;
-color: #191825;
-font-size: 32px;
-display: -webkit-box;
-display: -ms-flexbox;
-display: flex;
--webkit-box-align: center;
--ms-flex-align: center;
-align-items: center;
--webkit-box-pack: center;
--ms-flex-pack: center;
-justify-content: center;
-border-radius: 50%;
-margin: 0 auto 0;
--webkit-transition: all 500ms ease;
-transition: all 500ms ease;
-}
-
-.help-icon:hover {
-background-color: #191825;
-color: #fff;
-}
-
-.help-title {
-font-size: 38px;
-color: #fff;
-line-height: 40px;
-margin-bottom: 21px;
-font-weight: 700;
-}
-
-.help-contact {
-position: relative;
-display: block;
-margin-top: 21px;
-}
-
-.help-contact p {
-font-size: 14px;
-color: #fff;
-margin: 0;
-line-height: 32px;
-font-weight: 600;
-opacity: 0.7;
-}
-
-.help-contact a {
-font-size: 30px;
-color: #fff;
-font-weight: 600;
--webkit-transition: all 500ms ease;
-transition: all 500ms ease;
-}
-
-.help-contact a:hover {
-color: #191825;
-}
-
 /*-------------------------------------------------------------- # Project Details --------------------------------------------------------------*/
 .project-details__img {
 position: relative;
@@ -7802,7 +7714,6 @@ font-size: 20px;
 /***  ================================================================== 	Main Footer ==================================================================  ***/
 .main-footer {
 position: relative;
-/* background-color: #1f3c88; */
 background: var(--gradient-1);
 }
 
