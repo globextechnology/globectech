@@ -6283,8 +6283,8 @@ background-color: var(--theme-color2);
 }
 
 .sidebar-service-list li a i {
-height: 32px;
-width: 45px;
+height: 35px;
+width: 35px;
 position: absolute;
 top: 50%;
 right: 20px;
