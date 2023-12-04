@@ -5393,6 +5393,9 @@ padding: 30px 0 0px;
 .testimonial-section-two {
 padding: 50px 0 50px;
 }
+.chat_icon{
+  width: 15%;
+}
 }
 
 @media only screen and (max-width: 700px) {
