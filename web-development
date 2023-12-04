@@ -232,7 +232,7 @@
 								<ul>
 									<li><a href="/customer-service"><i class="fas fa-angle-right"></i><span>Customer Service</span></a></li>
 									<li ><a href="/graphic-designing"><i class="fas fa-angle-right"></i><span>Graphic Designing</span></a></li>
-									<li class="current"><a href="/web-development" class="current"><i class="fas fa-angle-right"></i><span>Full stack Web Development</span></a></li>
+									<li class="current"><a href="/web-development" class="current"><i class="fas fa-angle-right"></i><span>Full Stack Web Development</span></a></li>
 									<li ><a href="/app-development" ><i class="fas fa-angle-right"></i><span>App Development</span></a></li>
 									<li><a href="/digital-marketing"><i class="fas fa-angle-right"></i><span>Digital Marketing</span></a></li>
 									<li><a href="/social-media-marketing"><i class="fas fa-angle-right"></i><span>Social Media Marketing</span></a></li>

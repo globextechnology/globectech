@@ -7470,6 +7470,9 @@ animation-iteration-count: infinite;
   .privacy-policy-sec h1 {
     font-size: 46px;
   }
+  .sidebar-service-list li a{
+    padding: 19px 25px;
+  }
 .main-slider h1 {
   font-size: 56px;
 }
