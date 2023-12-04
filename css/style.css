@@ -5250,9 +5250,9 @@ padding: 30px 0 0px;
 .testimonial-section-two {
 padding: 50px 0 50px;
 }
-.chat_icon{
-  width: 100%;
-}
+.chat_icon img {
+  width: 15%;
+  }
 }
 
 @media only screen and (max-width: 700px) {
@@ -6591,7 +6591,6 @@ background: var(--gradient-2);
 margin-bottom: 19px;
 }
 
-/* .field{   margin-bottom: 20px; } */
 .chat_icon {
 display: flex;
 justify-content: space-between;
