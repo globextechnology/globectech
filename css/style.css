@@ -5495,9 +5495,6 @@ min-height: 250px;
 .privacy-policy-sec h1 {
   font-size: 46px;
 }
-.sidebar-service-list li a{
-  padding: 19px 25px;
-}
 .main-slider h1 {
 font-size: 56px;
 }
@@ -6304,7 +6301,7 @@ transition: all 500ms ease;
 display: block;
 background-color: #f5faff;
 border-radius: 15px;
-padding: 19px 40px;
+padding: 19px 25px;
 }
 
 .sidebar-service-list li a:hover {
