@@ -3334,48 +3334,6 @@ transition-delay: 1500ms;
 transition-delay: 1800ms;
 }
 
-.banner-carousel .owl-nav {
-position: absolute;
-left: 0;
-right: 0;
-top: 50%;
-max-width: 1170px;
-margin: -25px auto 0;
-display: -webkit-box;
-display: -ms-flexbox;
-display: flex;
--webkit-box-align: center;
--ms-flex-align: center;
-align-items: center;
--webkit-box-pack: justify;
--ms-flex-pack: justify;
-justify-content: space-between;
-display: none;
-}
-
-.banner-carousel .owl-nav .owl-next,
-.banner-carousel .owl-nav .owl-prev {
-display: block;
-margin: 10px 0;
-height: 50px;
-width: 50px;
-color: #ffffff;
-border-radius: 50%;
-border: 2px solid #ffffff;
-font-size: 20px;
-line-height: 48px;
-font-weight: 700;
-text-align: center;
-opacity: 0.2;
--webkit-transition: all 500ms ease;
-transition: all 500ms ease;
-}
-
-.banner-carousel .owl-nav .owl-next:hover,
-.banner-carousel .owl-nav .owl-prev:hover {
-opacity: 1;
-}
-
 /***   ====================================================================     Features Section ====================================================================  ***/
 .features-section {
 position: relative;
