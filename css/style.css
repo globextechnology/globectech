@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&amp;family=Kumbh+Sans:wght@300;400;500;600;700;800;900&amp;display=swap");
 @import url("owl.css");
-@import url("linear.css");
 @import url("fontawesome.css");
 @import url("animate.css");
 
@@ -372,6 +371,49 @@ height: auto;
 padding-top: 15px;
 padding-bottom: 15px;
 }
+
+/* ==========================================================linear css for icons start============================================== */
+@font-face {
+  font-family: 'linearicons-free';
+  src:  url('../fonts/linearicons-free8429.eot?4l2k0u');
+  src:  url('../fonts/linearicons-free8429.eot?4l2k0u#iefix') format('embedded-opentype'),
+    url('../fonts/linearicons-free8429.ttf?4l2k0u') format('truetype'),
+    url('../fonts/linearicons-free8429.woff?4l2k0u') format('woff'),
+    url('../fonts/linearicons-free8429.svg?4l2k0u#linearicons-free') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.lnr, [class^="lnr-"], [class*=" lnr-"] {
+	font-family: 'linearicons-free';
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.lnr-icon-bars:before {
+  content: "\e02b";
+}
+.lnr-icon-phone-handset:before {
+  content: "\e830";
+}
+.lnr-icon-envelope1:before {
+  content: "\e037";
+}
+.lnr-icon-phone-plus:before {
+  content: "\e01a";
+}
+.lnr-icon-location:before {
+  content: "\e835";
+}
+/* ==========================================================linear css for icons end============================================== */
+
 /* ===========================================================================Animation==================================== */
 
 .fadeInLeft {
