@@ -126,37 +126,6 @@ var THEMEMASCOT = {};
 		});
 	}
 
-
-	//Clients Carousel
-	if ($('.clients-carousel').length) {
-		$('.clients-carousel').owlCarousel({
-			rtl: THEMEMASCOT.isRTL.check(),
-			loop: true,
-			margin: 10,
-			nav: false,
-			smartSpeed: 400,
-			autoplay: true,
-			navText: ['<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>'],
-			responsive: {
-				0: {
-					items: 1
-				},
-				600: {
-					items: 2
-				},
-				768: {
-					items: 3
-				},
-				1024: {
-					items: 4
-				},
-				1200: {
-					items: 5
-				},
-			}
-		});
-	}
-
 	//Jquery Knob animation  // Pie Chart Animation
 	if ($('.dial').length) {
 		$('.dial').appear(function () {
