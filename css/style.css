@@ -3134,7 +3134,7 @@ position: relative;
 }
 
 .banner {
-background-image: url(/images/main-slider/main-bg.webp);
+background-color: #1B3671;
 background-size: cover;
 background-repeat: no-repeat;
 padding: 50px 0;
