@@ -5272,9 +5272,6 @@ padding: 50px 0 50px;
 .page-title .banner_row .banner_col__form {
   padding: 28px 18px;
 }
-.chat_icon img {
-  width: 15%;
-  }
 }
 
 .page-title .title {
@@ -6600,7 +6597,7 @@ margin-bottom: 15px;
 }
 
 .chat_icon img {
-width: 12%;
+width: 14%;
 }
 
 .chat_icon p {
