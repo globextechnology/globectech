@@ -3136,8 +3136,6 @@ position: relative;
 
 .banner {
 background-color: #1B3671;
-background-size: cover;
-background-repeat: no-repeat;
 padding: 50px 0;
 }
 
@@ -3145,8 +3143,6 @@ padding: 50px 0;
 line-height: 1em;
 color: #ffffff;
 font-weight: 600;
-letter-spacing: -0.01em;
-text-transform: capitalize;
 }
 
 .banner_col p {
@@ -3172,8 +3168,6 @@ position: relative;
 line-height: 1em;
 color: #ffffff;
 font-weight: 600;
-letter-spacing: -0.01em;
-text-transform: capitalize;
 }
 
 @media only screen and (max-width: 1199px) {
