@@ -7270,6 +7270,6 @@ background: var(--gradient-2);
 }
 @media screen and (max-width: 600px) {
   .chat_icon img {
-    width: 100%;
+    width: 20%;
   }
 }
