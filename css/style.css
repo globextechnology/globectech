@@ -5214,9 +5214,6 @@ min-height: 250px;
 .privacy-policy-sec h1 {
   font-size: 46px;
 }
-.main-slider h1 {
-font-size: 56px;
-}
 
 .banner_col__form {
 width: 51%;
@@ -7077,9 +7074,6 @@ animation-iteration-count: infinite;
 }
 
 @media screen and (max-width:700px) {
-.main-slider h1 {
-  font-size: 40px;
-}
 
 .banner {
   padding: 36px 0;
