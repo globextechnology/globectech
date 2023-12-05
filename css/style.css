@@ -7267,8 +7267,6 @@ background: var(--gradient-2);
     height: unset;
     font-size: 22px;
   }
-}
-@media screen and (max-width: 600px) {
   .chat_icon img {
     width: 25%;
   }
