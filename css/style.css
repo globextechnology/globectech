@@ -5040,6 +5040,9 @@ overflow: hidden;
 
 .testimonial-block-two .info-box .name {
 margin-bottom: 7px;
+color: #1f3c88;
+font-size: 22px;
+font-weight: 600;
 }
 
 .testimonial-block-two .info-box .designation {
