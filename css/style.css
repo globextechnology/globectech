@@ -3027,7 +3027,6 @@ display: flex;
 }
 
 .main-slider h1 {
-position: relative;
 line-height: 1em;
 color: #ffffff;
 font-weight: 600;
@@ -3035,31 +3034,25 @@ font-weight: 600;
 
 @media only screen and (max-width: 1199px) {
 .main-slider h1 {
-  font-size: 64px;
+  font-size: 65px;
 }
 }
 
 @media only screen and (max-width: 1023px) {
 .main-slider h1 {
-  font-size: 78px;
+  font-size: 60px;
 }
 }
 
 @media only screen and (max-width: 767px) {
 .main-slider h1 {
-  font-size: 62px;
+  font-size: 50px;
 }
 }
 
 @media only screen and (max-width: 599px) {
 .main-slider h1 {
-  font-size: 54px;
-}
-}
-
-@media only screen and (max-width: 424px) {
-.main-slider h1 {
-  font-size: 42px;
+  font-size: 45px;
 }
 }
 
