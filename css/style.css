@@ -6597,7 +6597,7 @@ margin-bottom: 15px;
 }
 
 .chat_icon img {
-width: 15%;
+width: 12%;
 }
 
 .chat_icon p {
@@ -7266,5 +7266,10 @@ background: var(--gradient-2);
   .blog-box h2{
     height: unset;
     font-size: 22px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .chat_icon img {
+    width: 100%;
   }
 }
