@@ -3019,13 +3019,6 @@ font-family: var(--title-font);
 display: flex;
 }
 
-@media only screen and (max-width: 767px) {
-.main-slider .tp-bgimg {
-  background-image: none !important;
-  background-color: #0e1e2a;
-}
-}
-
 .main-slider h1 {
 line-height: 1em;
 color: #ffffff;
@@ -3040,17 +3033,11 @@ font-weight: 600;
 
 @media only screen and (max-width: 1023px) {
 .main-slider h1 {
-  font-size: 60px;
-}
-}
-
-@media only screen and (max-width: 767px) {
-.main-slider h1 {
   font-size: 50px;
 }
 }
 
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width: 767px) {
 .main-slider h1 {
   font-size: 45px;
 }
@@ -3095,17 +3082,6 @@ margin-right: 20px;
 .main-slider .main-image {
   display: none;
 }
-}
-
-.tp-dottedoverlay {
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-background-color: transparent;
-}
-
-.tp-bannertimer {
-display: none;
 }
 
 /***   ====================================================================     Banner Section ====================================================================  ***/
