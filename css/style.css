@@ -4672,7 +4672,7 @@ border-radius: 0;
 
 /* =====================================================owl css from file start=============================== */
 
-.owl-carousel {
+/* .owl-carousel {
   display: none;
   width: 100%;
   -webkit-tap-highlight-color: transparent;
@@ -4718,13 +4718,13 @@ border-radius: 0;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none; 
-  }
+  } */
 
 /* =======================================================owl css from file end================================= */
 
 /* =================================================owl css================================================== */
 
-.default-navs .owl-next,
+/* .default-navs .owl-next,
 .default-navs .owl-prev {
 display: block;
 margin: 0px 5px;
@@ -4789,7 +4789,7 @@ cursor: pointer;
 opacity: 1;
 width: 46px;
 background: var(--gradient-1);
-}
+} */
 
 /*========================== 	Default Tabs ===========================*/
 .default-tabs {
@@ -8203,9 +8203,11 @@ margin-bottom: 0;
 position: relative;
 overflow: hidden;
 padding: 120px 0;
+max-width: 90%;
+margin: auto;
 }
 
-.testimonial-section-two .sec-title {
+/* .testimonial-section-two .sec-title {
 margin-bottom: 40px;
 }
 
@@ -8311,7 +8313,7 @@ margin-bottom: 7px;
 color: #1f3c88;
 font-size: 22px;
 font-weight: 600;
-}
+} */
 
 /***   ==================================================================== Page Title ====================================================================  ***/
 
@@ -8389,6 +8391,7 @@ padding: 30px 0 0px;
 
 .testimonial-section-two {
 padding: 50px 0 50px;
+max-width: 100%;
 }
 }
 
