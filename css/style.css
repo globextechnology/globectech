@@ -9613,18 +9613,15 @@ textarea {
   margin-bottom: 0;
   list-style: none
 }
-
 .nav-link {
   display: block;
   padding: .5rem 1rem
 }
-
 .nav-pills .nav-link {
   background: 0 0;
   border: 0;
   border-radius: .25rem
 }
-
 .nav-pills .nav-link.active,.nav-pills .show>.nav-link {
   color: #fff;
   background-color: #007bff
