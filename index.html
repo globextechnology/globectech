@@ -16,7 +16,7 @@
     <link rel="canonical" href="https://www.globextechnology.com" />
     <title>Empowering Tomorrow, Build your Digital Journey Successful</title>
 <style>
-  @import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&amp;display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&amp;family=Kumbh+Sans:wght@300;400;500;600;700;800;900&amp;display=swap");
 
 :root {
 --theme-color1: #1f3c88;
@@ -41,7 +41,7 @@
 --link-hover-color: var(--theme-color1);
 --gradient-1: linear-gradient(to left, var(--theme-color3), var(--theme-color2));
 --gradient-2: linear-gradient(to left, var(--theme-color2), var(--theme-color3));
---text-font: "Jost", sans-serif;
+--text-font: "Kumbh Sans", sans-serif;
 --title-font: "Jost", sans-serif;
 --body-font-size: 16px;
 --body-line-height: 28px;
@@ -124,7 +124,12 @@ font-family: var(--text-font);
 font-weight: var(--body-font-weight);
 line-height: var(--body-line-height);
 }
-
+.select-box ol li .country-name {
+margin-left: .4rem;
+}
+.select-box ol li.hide{
+  display: none;
+}
 p,
 .text {
 color: var(--text-color);
@@ -781,34 +786,6 @@ padding: 0px 15px;
 margin: 0 auto;
 width: 100%;
 }
-
-/*=======================     Preloader =======================*/
-/* .preloader {
-position: fixed;
-left: 0px;
-top: 0px;
-width: 100%;
-height: 100%;
-z-index: 999999;
-background-color: #ffffff;
-}
-
-.preloader:after {
-position: absolute;
-left: 50%;
-top: 50%;
-height: 100px;
-width: 100px;
-margin-left: -50px;
-margin-top: -60px;
-background-position: center center;
-background-repeat: no-repeat;
-background-image: url("../images/globex-technology-logo.webp");
-background-size: 100px;
--webkit-animation: zoom-one 1s infinite linear;
-animation: zoom-one 1s infinite linear;
-content: "";
-} */
 
 /*======================= Scroll To Top style =======================*/
 .scroll-to-top {
@@ -3027,7 +3004,7 @@ margin: 0;
 }
 
 #form .error {
-color: #31d190;
+color: 	#ff3333;
 position: absolute;
 bottom: 59px;
 font-weight: 600;
