@@ -938,14 +938,6 @@ color: var(--theme-color3);
 background-color: #ffffff;
 }
 
-/*Social Icon Two*/
-
-/*Social Icon Three*/
-
-/*======================     Tabs Box ======================*/
-
-/*========================   Select2 Dropdown Plugin ========================*/
-
 /*========================== 	Default Tabs ===========================*/
 
 .theme-btn {
@@ -1887,7 +1879,7 @@ justify-content: space-between;
 background: #1c3145;
 width: 100%;
 border-top: 1px solid rgba(255, 255, 255, 0.1);
-margin-top: auto;
+margin: 0px;
 }
 
 .mobile-menu .social-links li {
@@ -2193,7 +2185,9 @@ content: "";
 }
 
 .features-section .image-column .image-box::before {
-  left: 30px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
 }
 
 .features-section .image-column .image-box img {
@@ -3009,6 +3003,10 @@ font-size: 1.4vw;
 
 .mobile-logo {
 display: none;
+}
+
+.portfolio-sec{
+  margin-top: 50px;
 }
 
 .portfolio-sec .nav-pills .nav-link.active {
@@ -4038,6 +4036,10 @@ textarea {
 
       <!-- portfolio sec -->
       <section class="portfolio-sec">
+        <div class="sec-title text-center">
+          <span class="float-text">portfolio</span>
+          <h2>Projects</h2>
+        </div>
         <div class="auto-container">
           <div class="portfolio__inner">
             <ul class="nav nav-pills mb-3" id="pills-tab">
