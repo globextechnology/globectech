@@ -2509,13 +2509,387 @@ transition: all 300ms ease;
 /***   ====================================================================     Fun Fact Section Two ====================================================================  ***/
 
 /***   ==================================================================== 	Testimonial Section Two ====================================================================  ***/
-.testimonial-section-two {
-position: relative;
-overflow: hidden;
-padding: 120px 0;
-max-width: 90%;
-margin: auto;
+.default-navs .owl-next,
+.default-navs .owl-prev {
+  display: block;
+  margin: 0px 5px;
+  height: 65px;
+  width: 65px;
+  color: var(--theme-color1);
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ffffff;
+  font-size: 16px;
+  line-height: 63px;
+  font-weight: 700;
+  text-align: center;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
 }
+
+.default-navs .owl-next span,
+.default-navs .owl-prev span {
+  display: inline-block;
+  background: var(--gradient-1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.default-navs .owl-next:hover,
+.default-navs .owl-prev:hover {
+  -webkit-box-shadow: 0;
+  box-shadow: 0;
+  border: 1px solid var(--bg-theme-color2);
+}
+
+.default-dots .owl-dots {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 18px 45px;
+  background-color: var(--bg-theme-color4);
+  border-radius: 50px;
+  margin-top: 30px;
+}
+
+.default-dots .owl-dots .owl-dot {
+  height: 4px;
+  width: 10px;
+  border-radius: 5px;
+  background-color: var(--bg-theme-color2);
+  margin: 0 5px;
+  opacity: 0.25;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.default-dots .owl-dots .owl-dot.active {
+  opacity: 1;
+  width: 46px;
+  background: var(--gradient-1);
+}
+
+.testimonial-section-two {
+    position: relative;
+    overflow: hidden;
+    padding: 120px 0;
+  }
+  
+  .testimonial-section-two .bg {
+    background-size: auto;
+    top: 40px;
+  }
+  
+  .testimonial-section-two .sec-title {
+    margin-bottom: 40px;
+  }
+  
+  .testimonial-section-two .carousel-outer {
+    position: relative;
+  }
+  
+  .testimonial-section-two .owl-nav {
+    display: none;
+  }
+  
+  .testimonial-section-two .owl-dots {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  
+  .testimonial-block-two {
+    position: relative;
+    overflow: hidden;
+    padding: 20px 15px 30px;
+  }
+  
+  .testimonial-block-two .inner-box {
+    position: relative;
+    padding: 50px 70px 55px;
+    padding-right: 60px;
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  
+  @media only screen and (max-width: 1199px) {
+    .testimonial-block-two .inner-box {
+      padding: 40px 50px;
+    }
+  }
+  
+  @media only screen and (max-width: 424px) {
+    .testimonial-block-two .inner-box {
+      padding: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+  }
+  
+  .testimonial-block-two .upper-box {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  
+  .testimonial-block-two .upper-box .icon-quote {
+    display: block;
+    width: 66px;
+    height: 50px;
+    background-image: url(../images/icons/icon-quote.png);
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-block-two .upper-box .rating-box {
+    position: relative;
+    margin-right: -10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ff8a00;
+  }
+  
+  .testimonial-block-two .upper-box .rating-box .reason {
+    display: block;
+    font-size: 16px;
+    color: #2e2d2d;
+    font-weight: 700;
+    margin-bottom: 7px;
+  }
+  
+  .testimonial-block-two .upper-box .rating-box i {
+    margin-right: 5px;
+  }
+  
+  .testimonial-block-two .text {
+    position: relative;
+    font-size: 22px;
+    line-height: 35px;
+    color: #67687a;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 40px;
+    /* height: 23vh; */
+  }
+  
+  .testimonial-block-two .info-box {
+    position: relative;
+  }
+  
+  .testimonial-block-two .info-box .icon-chat {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 101px;
+    height: 60px;
+    background-image: url(../images/icons/icon-chat.png);
+    overflow: hidden;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .testimonial-block-two .info-box .icon-chat {
+      display: none;
+    }
+  }
+  
+  .testimonial-block-two .info-box .name {
+    margin-bottom: 7px;
+    color: var(--headings-color);
+    font-weight: 600;
+    font-size: 24px;
+  }
+  
+  .testimonial-block-two .info-box .designation {
+    display: block;
+    font-size: 16px;
+    line-height: 20px;
+    color: #67687a;
+    font-weight: 400;
+  }
+
+  /* ==============================================owl css==================================================== */
+  .owl-carousel {
+    display: none;
+    width: 100%;
+    -webkit-tap-highlight-color: transparent;
+    /* position relative and z-index fix webkit rendering fonts issue */
+    position: relative;
+    z-index: 1; }
+    .owl-carousel .owl-stage {
+      position: relative;
+      -ms-touch-action: pan-Y; }
+    .owl-carousel .owl-stage:after {
+      content: ".";
+      display: block;
+      clear: both;
+      visibility: hidden;
+      line-height: 0;
+      height: 0; }
+    .owl-carousel .owl-stage-outer {
+      position: relative;
+      overflow: hidden;
+      /* fix for flashing background */
+      -webkit-transform: translate3d(0px, 0px, 0px); }
+    .owl-carousel .owl-item {
+      position: relative;
+      min-height: 1px;
+      float: left;
+      -webkit-backface-visibility: hidden;
+      -webkit-tap-highlight-color: transparent;
+      -webkit-touch-callout: none; }
+    .owl-carousel .owl-item img {
+      display: block;
+      width: 100%;
+      -webkit-transform-style: preserve-3d; }
+    .owl-carousel .owl-nav.disabled,
+    .owl-carousel .owl-dots.disabled {
+      display: none; }
+    .owl-carousel .owl-nav .owl-prev,
+    .owl-carousel .owl-nav .owl-next,
+    .owl-carousel .owl-dot {
+      cursor: pointer;
+      cursor: hand;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none; }
+    .owl-carousel.owl-loaded {
+      display: block; }
+    .owl-carousel.owl-loading {
+      opacity: 0;
+      display: block; }
+    .owl-carousel.owl-hidden {
+      opacity: 0; }
+    .owl-carousel.owl-refresh .owl-item {
+      visibility: hidden; }
+    .owl-carousel.owl-drag .owl-item {
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none; }
+    .owl-carousel.owl-grab {
+      cursor: move;
+      cursor: grab; }
+    .owl-carousel.owl-rtl {
+      direction: rtl; }
+    .owl-carousel.owl-rtl .owl-item {
+      float: right; }
+  
+  /* No Js */
+  .no-js .owl-carousel {
+    display: block; }
+  
+  /*
+   *  Owl Carousel - Animate Plugin
+   */
+  .owl-carousel .animated {
+    -webkit-animation-duration: 1000ms;
+            animation-duration: 1000ms;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both; }
+  
+  .owl-carousel .owl-animated-in {
+    z-index: 0; }
+  
+  .owl-carousel .owl-animated-out {
+    z-index: 1; }
+  
+  .owl-carousel .fadeOut {
+    -webkit-animation-name: fadeOut;
+            animation-name: fadeOut; }
+  
+  @-webkit-keyframes fadeOut {
+    0% {
+      opacity: 1; }
+    100% {
+      opacity: 0; } }
+  
+  @keyframes fadeOut {
+    0% {
+      opacity: 1; }
+    100% {
+      opacity: 0; } }
+  
+  /*
+   * 	Owl Carousel - Auto Height Plugin
+   */
+  .owl-height {
+    transition: height 500ms ease-in-out; }
+  
+  /*
+   * 	Owl Carousel - Lazy Load Plugin
+   */
+  .owl-carousel .owl-item .owl-lazy {
+    opacity: 0;
+    transition: opacity 400ms ease; }
+  
+  .owl-carousel .owl-item img.owl-lazy {
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d; }
+  
+  /*
+   * 	Owl Carousel - Video Plugin
+   */
+  .owl-carousel .owl-video-wrapper {
+    position: relative;
+    height: 100%;
+    background: #000; }
+  
+  .owl-carousel .owl-video-play-icon {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    left: 50%;
+    top: 50%;
+    margin-left: -40px;
+    margin-top: -40px;
+    background: url("owl.video.play.html") no-repeat;
+    cursor: pointer;
+    z-index: 1;
+    -webkit-backface-visibility: hidden;
+    transition: -webkit-transform 100ms ease;
+    transition: transform 100ms ease; }
+  
+  .owl-carousel .owl-video-play-icon:hover {
+    -webkit-transform: scale(1.3, 1.3);
+        -ms-transform: scale(1.3, 1.3);
+            transform: scale(1.3, 1.3); }
+  
+  .owl-carousel .owl-video-playing .owl-video-tn,
+  .owl-carousel .owl-video-playing .owl-video-play-icon {
+    display: none; }
+  
+  .owl-carousel .owl-video-tn {
+    opacity: 0;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: opacity 400ms ease; }
+  
+  .owl-carousel .owl-video-frame {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    width: 100%; }
+
+    .fa-star::before {
+  content: "\f005";
+}
+
+/* ===================================================owl css end===============================================   */
 
 /***   ==================================================================== Page Title ====================================================================  ***/
 
@@ -2559,11 +2933,6 @@ grid-template-columns: auto auto !important;
 
 .services-section {
 padding: 30px 0 0px;
-}
-
-.testimonial-section-two {
-padding: 50px 0 50px;
-max-width: 100%;
 }
 }
 
@@ -4424,15 +4793,153 @@ textarea {
         </div>
       </section>
      <!-- Start Testimonial Section -->
-      <section class="testimonial-section-two">
-        <div class="content-column col-xl-12 col-lg-12 col-md-12 col-sm-12">
-          <div class="sec-title text-center">
-            <span class="float-text">say’s</span>
-            <h2>People’s Say About Our <br />Support & Services</h2>
+     <section class="testimonial-section-two">
+      <div class="content-column col-xl-12 col-lg-12 col-md-12 col-sm-12">
+        <div class="sec-title text-center">
+          <span class="float-text">say’s</span>
+          <h2>People’s Say About Our <br />Support & Services</h2>
+        </div>
+      </div>
+      <div class="bg bg-pattern-8 zoom-one"></div>
+      <div class="auto-container">
+        <div class="carousel-outer">
+          <div
+            class="testimonial-carousel-two owl-carousel owl-theme default-dots">
+            <!-- Testimonial Block Two -->
+            <div class="testimonial-block-two">
+              <div class="inner-box">
+                <div class="content-box">
+                  <div class="upper-box">
+                    <span class="icon icon-quote"></span>
+                    <div class="rating-box">
+                      <span class="reason">Good Quality</span>
+                      <div class="rating">
+                        <i class="fa fa-star"></i><i class="fa fa-star"></i
+                        ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                        ><i class="fa fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="text">
+                    "He is a professional developer and the complete his work
+                    in a short time. Already looking forward to our next job."
+                  </div>
+                  <div class="info-box">
+                    <h4 class="name">Keven</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial Block Two -->
+            <div class="testimonial-block-two">
+              <div class="inner-box">
+                <div class="content-box">
+                  <div class="upper-box">
+                    <span class="icon icon-quote"></span>
+                    <div class="rating-box">
+                      <span class="reason">Good Quality</span>
+                      <div class="rating">
+                        <i class="fa fa-star"></i><i class="fa fa-star"></i
+                        ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                        ><i class="fa fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="text">
+                    "It was perfect! We had to get a complete webdesign
+                    converted from a PSD to HTML and CSS and he did it
+                    overnight ! Absolutely amazing !"
+                  </div>
+                  <div class="info-box">
+                    <h4 class="name">Virtual Dedication Ltd.</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial Block Two -->
+            <div class="testimonial-block-two">
+              <div class="inner-box">
+                <div class="content-box">
+                  <div class="upper-box">
+                    <span class="icon icon-quote"></span>
+                    <div class="rating-box">
+                      <span class="reason">Good Quality</span>
+                      <div class="rating">
+                        <i class="fa fa-star"></i><i class="fa fa-star"></i
+                        ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                        ><i class="fa fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="text">
+                    "First time working with his and he managed to upgrade my
+                    website as requested. Will work with him again soon."
+                  </div>
+                  <div class="info-box">
+                    <h4 class="name">Timothy Lee</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial Block Two -->
+            <div class="testimonial-block-two">
+              <div class="inner-box">
+                <div class="content-box">
+                  <div class="upper-box">
+                    <span class="icon icon-quote"></span>
+                    <div class="rating-box">
+                      <span class="reason">Good Quality</span>
+                      <div class="rating">
+                        <i class="fa fa-star"></i><i class="fa fa-star"></i
+                        ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                        ><i class="fa fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="text">
+                    "He was very helpful and creative and solved my problem in
+                    minutes. He has got high skill set and is extremely
+                    professional."
+                  </div>
+                  <div class="info-box">
+                    <h4 class="name">Timothy Lee</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-block-two">
+              <div class="inner-box">
+                <div class="content-box">
+                  <div class="upper-box">
+                    <span class="icon icon-quote"></span>
+                    <div class="rating-box">
+                      <span class="reason">Good Quality</span>
+                      <div class="rating">
+                        <i class="fa fa-star"></i><i class="fa fa-star"></i
+                        ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                        ><i class="fa fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="text">
+                    "He is very much Cooperative. Tried his best related to
+                    availability and doubt clearing. Looking forward to work
+                    with him in more projects soon. Highly recommended!"
+                  </div>
+                  <div class="info-box">
+                    <h4 class="name">Shamon joe</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        
-      </section>
+      </div>
+    </section>
       <!-- End Testimonial Section -->
 
       <!-- Main Footer -->
@@ -4558,6 +5065,7 @@ textarea {
     <script src="js/contact.js"></script>
     <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
     <script src="js/jquery.js"></script>
+    <script src="js/owl.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/wow.js"></script>
     <script src="js/appear.js"></script>
