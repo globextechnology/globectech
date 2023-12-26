@@ -349,12 +349,6 @@
 
 		<!-- Main Footer -->
 		<footer class="main-footer">
-			<div class="anim-icons">
-				<span class="icon icon-circle-1 bounce-x"></span>
-				<span class="icon icon-circle-2 bounce-x"></span>
-				<span class="icon icon-object-3 bounce-y"></span>
-				<span class="icon icon-object-4 bounce-y"></span>
-			</div>
 			<!--Widgets Section-->
 			<div class="widgets-section">
 				<div class="auto-container">

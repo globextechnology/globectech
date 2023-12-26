@@ -4667,62 +4667,6 @@ margin-left: 5px;
 }
 
 /***   ====================================================================   Anim Icons ====================================================================  ***/
-.anim-icons {
-/* position: absolute;   left: 0;   top: 0;   right: 0;   height: 100%;   width: 100%;   max-width: 1170px;   margin: 0 auto; */
-display: none;
-}
-
-.anim-icons.full-width {
-/* max-width: 100%; */
-display: none;
-}
-
-.anim-icons .icon {
-/* position: absolute;   background-position: center;   background-repeat: no-repeat;   background-size: 100%; */
-display: none;
-}
-
-.icon-circle-1 {
-width: 116px;
-height: 116px;
-background-image: url(../images/icons/icon-circle-1.png);
-}
-
-.icon-circle-2 {
-width: 35px;
-height: 35px;
-background-image: url(../images/icons/icon-circle-2.png);
-}
-
-.icon-circle-3 {
-width: 78px;
-height: 72px;
-background-image: url(../images/icons/icon-circle-3.png);
-}
-
-.icon-object-1 {
-width: 24px;
-height: 22px;
-background-image: url(../images/icons/icon-object-1.png);
-}
-
-.icon-object-2 {
-width: 58px;
-height: 40px;
-background-image: url(../images/icons/icon-object-2.png);
-}
-
-.icon-object-3 {
-width: 80px;
-height: 90px;
-background-image: url(../images/icons/icon-object-3.png);
-}
-
-.icon-object-4 {
-width: 54px;
-height: 70px;
-background-image: url(../images/icons/icon-object-4.png);
-}
 
 .icon-star {
 width: 53px;
