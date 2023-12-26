@@ -80,19 +80,6 @@ var THEMEMASCOT = {};
 		});
 	}
 
-	//Hidder bar
-	if ($('.hidden-bar').length) {
-		//Menu Toggle Btn
-		$('.toggle-hidden-bar').on('click', function () {
-			$('body').addClass('active-hidden-bar');
-		});
-
-		//Menu Toggle Btn
-		$('.hidden-bar-back-drop, .hidden-bar .close-btn').on('click', function () {
-			$('body').removeClass('active-hidden-bar');
-		});
-	}
-
 	// Testimonial Carousel Two
 	if ($('.testimonial-carousel-two').length) {
 		$('.testimonial-carousel-two').owlCarousel({
