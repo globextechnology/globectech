@@ -4,10 +4,12 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
 
 <url>
   <loc>https://www.globextechnology.com/</loc>
-  <lastmod>2024-02-12T08:10:49+00:00</lastmod>
+  <lastmod>2024-02-18T11:51:01+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
@@ -22,7 +24,7 @@
 </url>
 <url>
   <loc>https://www.globextechnology.com/our-blogs</loc>
-  <lastmod>2024-01-14T09:37:47+00:00</lastmod>
+  <lastmod>2024-02-18T12:05:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -76,8 +78,8 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.globextechnology.com/blogs/why-graphic-is-important</loc>
-  <lastmod>2024-01-14T09:37:47+00:00</lastmod>
+  <loc>https://www.globextechnology.com/blogs/AI-Unleashed</loc>
+  <lastmod>2024-02-18T12:05:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
