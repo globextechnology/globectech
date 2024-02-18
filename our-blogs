@@ -194,10 +194,10 @@
             <div class="container-fluid">
                 <div class="blog-row">
                     <div class="blog-box">
-                        <img src="./images/AI technology.jpg" alt="" />
+                        <img src="./images/AI-technology.jpg" alt="" />
                         <div style="padding: 0 24px 26px">
-                          <h2>Why designing is important now a days</h2>
-                          <p>Designing is important in today's world because it enhances user experiences, provides a competitive edge, builds brand identity...</p>
+                          <h2>Exploring the Future of Software Development with Globex Technology</h2>
+                          <p>At Globex Technology, we are constantly pushing the boundaries of innovation in software development. As artificial intelligence (AI) continues...</p>
                           <a href="/blogs/AI-Unleashed">Read More</a>
                         </div>
                     </div>
