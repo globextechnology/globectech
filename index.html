@@ -16,12 +16,12 @@
     <meta property="og:title" content="Empowering Tomorrow: Build your Digital Journey Successful" />
     <meta property="og:description" content="Building the Future, Globex Technology turns ideas into digital reality, driving innovation and a connected world for the future." />
     <meta property="og:url" content="https://www.globextechnology.com/" />
-    <meta property="og:image" content="images/globex-technology-logo" />
+    <meta property="og:image" content="https://www.globextechnology.com/images/globex-technology-logo.webp" />
     <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@GlobexTech">
-<meta name="twitter:title" content="Globex Technology: Build your Digital Journey Successful">
-<meta name="twitter:description" content="Empowering Tomorrow: Globex Technology turns ideas into digital reality, driving innovation and a connected world for the future.">
-<meta name="twitter:image" content="https://www.globextechnology.com/images/globex-technology-logo.webp">
+    <meta name="twitter:site" content="@GlobexTech">
+    <meta name="twitter:title" content="Empowering Tomorrow: Build your Digital Journey Successful">
+    <meta name="twitter:description" content="Empowering Tomorrow: Globex Technology turns ideas into digital reality, driving innovation and a connected world for the future.">
+    <meta name="twitter:image" content="https://www.globextechnology.com/images/globex-technology-logo.webp">
     <!-- Stylesheets -->
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
     <link rel="icon" href="images/favicon.png" type="image/x-icon" />
@@ -2046,7 +2046,11 @@ position: relative;
 }
 
 .banner {
-background-color: #1B3671;
+/* background-color: #1B3671; */
+background-image: url(images/main-slider/GlobexTechnologybanner.jpg);
+background-position: center center;
+background-size: cover;
+background-repeat: no-repeat;
 padding: 50px 0;
 }
 
@@ -3125,7 +3129,7 @@ border-radius: 20px;
 .banner_col__form input[type=text],
 .banner_col__form textarea {
 background-color: transparent;
-border: 1px solid #ffffff9c;
+border: 1px solid #fff;
 border-radius: 8px;
 padding: 6px 12px;
 width: 100%;
@@ -3134,7 +3138,7 @@ color: #fff;
 
 .banner_col__form input[type=text]::placeholder,
 .banner_col__form textarea::placeholder {
-color: #ffffff9c;
+color: #fff;
 font-weight: 500;
 }
 
@@ -3400,6 +3404,10 @@ background-color: transparent;
 outline: none;
 height: 100%;
 color: #fff;
+}
+
+.select-box input::placeholder{
+  color: #fff;
 }
 
 #dropdown_contact input[type="tel"] {
