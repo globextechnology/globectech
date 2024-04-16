@@ -2861,7 +2861,9 @@ transition: all 300ms ease;
   box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
 }
 }
-
+.portfolio-row.portfolio-row2{
+  grid-template-columns: auto auto auto auto;
+}
 @media screen and (max-width: 800px) {
 
 .banner_col__form {
@@ -3175,7 +3177,7 @@ margin-bottom: 19px;
     bottom: 32%;
     z-index: 99;
     overflow: hidden;
-    transition: all 6s ease-in-out;
+    transition: background-position 10s ease;
 }
 .portfolio__Bg:hover{
     background-position: bottom center;
@@ -3185,6 +3187,12 @@ margin-bottom: 19px;
   left: 9.1%;
   top: 10%;
   bottom: 16%;
+}
+.portfolio__Bg.portfolio__Bg3{
+  width: 92%;
+    top: 2%;
+    bottom: 3%;
+    border-radius: 34px;
 }
 .chat_icon {
 display: flex;
@@ -4442,43 +4450,31 @@ textarea {
                 role="tabpanel"
                 aria-labelledby="pills-contact-tab"
               >
-                <div class="portfolio-row">
-                  <div class="potfolio-col">
-                    <a href="#" data-fancybox="gallery"
-                        data-src="./images/portfolio/hyk.webp">
-                      <img
-                        src="./images/portfolio/hyk.webp"
-                        alt="globextechnology"
-                      />
-                      <div class="porfolio_btn">
-                        <p>View</p>
-                      </div>
-                    </a>
+                <div class="portfolio-row portfolio-row2">
+                  <div class="potfolio-col position-relative">
+                    <div class="potfolio-col___inner">
+                      <img src="./images/mobile.png" alt="web development">
+                    </div>
+                    <div class="portfolio__Bg portfolio__Bg3" style="background-image: url('./images/aiv.png');"></div>
                   </div>
 
-                  <div class="potfolio-col">
-                    <a href="#" data-fancybox="gallery"
-                      data-src="./images/portfolio/linkia.webp">
-                      <img
-                        src="./images/portfolio/linkia.webp"
-                        alt="globextechnology"
-                      />
-                      <div class="porfolio_btn">
-                        <p>View</p>
-                      </div>
-                    </a>
+                  <div class="potfolio-col position-relative">
+                    <div class="potfolio-col___inner">
+                      <img src="./images/mobile.png" alt="web development">
+                    </div>
+                    <div class="portfolio__Bg portfolio__Bg3" style="background-image: url('./images/zono.png');"></div>
                   </div>
-                  <div class="potfolio-col">
-                    <a href="#" data-fancybox="gallery"
-                      data-src="./images/portfolio/hyk.webp">
-                      <img
-                        src="./images/portfolio/hyk.webp"
-                        alt="globextechnology"
-                      />
-                      <div class="porfolio_btn">
-                        <p>View</p>
-                      </div>
-                    </a>
+                  <div class="potfolio-col position-relative">
+                    <div class="potfolio-col___inner">
+                      <img src="./images/mobile.png" alt="web development">
+                    </div>
+                    <div class="portfolio__Bg portfolio__Bg3" style="background-image: url('./images/apx.png');"></div>
+                  </div>
+                  <div class="potfolio-col position-relative">
+                    <div class="potfolio-col___inner">
+                      <img src="./images/mobile.png" alt="web development">
+                    </div>
+                    <div class="portfolio__Bg portfolio__Bg3" style="background-image: url('./images/vape.png');"></div>
                   </div>
                 </div>
               </div>
