@@ -29,7 +29,7 @@
         "priceRange": "$$$",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "House 2 Abbasi Street 88, Krishan Nagar",
+          "streetAddress": "Abbasi Street 88, Krishan Nagar",
           "addressLocality": "Lahore",
           "postalCode": "54000",
           "addressCountry": "PK"

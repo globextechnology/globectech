@@ -3160,7 +3160,32 @@ background: var(--gradient-2);
 .banner_form_row {
 margin-bottom: 19px;
 }
-
+.position-relative{
+  position: relative;
+}
+.portfolio__Bg{
+    left: 4%;
+    position: absolute;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 92%;
+    background-attachment: scroll;
+    top: 5%;
+    bottom: 32%;
+    z-index: 99;
+    overflow: hidden;
+    transition: all 6s ease-in-out;
+}
+.portfolio__Bg:hover{
+    background-position: bottom center;
+}
+.portfolio__Bg.portfolio__Bg2{
+  width: 83%;
+  left: 9.1%;
+  top: 10%;
+  bottom: 16%;
+}
 .chat_icon {
 display: flex;
 justify-content: space-between;
@@ -3904,7 +3929,7 @@ textarea {
         "priceRange": "$$$",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "House 2 Abbasi Street 88, Krishan Nagar",
+          "streetAddress": "Abbasi Street 88, Krishan Nagar",
           "addressLocality": "Lahore",
           "postalCode": "54000",
           "addressCountry": "PK"
@@ -4372,77 +4397,41 @@ textarea {
                 aria-labelledby="pills-home-tab"
               >
                 <div class="portfolio-row">
-                  <div class="potfolio-col">
-                    <a href="#" data-fancybox="gallery"
-                        data-src="./images/portfolio/dashboard.webp">
-                      <img
-                        src="./images/portfolio/dashboard.webp"
-                        alt="globextechnology"
-                      />
-                      <div class="porfolio_btn">
-                        <p>View</p>
-                      </div>
-                    </a>
+                  <div class="potfolio-col position-relative">
+                    <div class="potfolio-col___inner">
+                      <img src="./images/i-mac.png" alt="web development">
+                    </div>
+                    <div class="portfolio__Bg" style="background-image: url('./images/zonebase.png');"></div>
                   </div>
-                  <div class="potfolio-col">
-                    <a href="#" data-fancybox="gallery"
-                      data-src="./images/portfolio/apx.webp">
-                      <img
-                        src="./images/portfolio/apx.webp"
-                        alt="globextechnology"
-                      />
-                      <div class="porfolio_btn">
-                        <p>View</p>
-                      </div>
-                    </a>
+                  <div class="potfolio-col position-relative">
+                    <div class="potfolio-col___inner">
+                      <img src="./images/i-mac.png" alt="web development">
+                    </div>
+                    <div class="portfolio__Bg" style="background-image: url('./images/asanbuy.png');"></div>
                   </div>
-                  <div class="potfolio-col">
-                    <a href="#" data-fancybox="gallery"
-                      data-src="./images/portfolio/gym.webp">
-                      <img
-                        src="./images/portfolio/gym.webp"
-                        alt="globextechnology"
-                      />
-                      <div class="porfolio_btn">
-                        <p>View</p>
-                      </div>
-                    </a>
+                  <div class="potfolio-col position-relative">
+                    <div class="potfolio-col___inner">
+                      <img src="./images/i-mac.png" alt="web development">
+                    </div>
+                    <div class="portfolio__Bg" style="background-image: url('./images/firmax.png');"></div>
                   </div>
-                  <div class="potfolio-col">
-                    <a href="#" data-fancybox="gallery"
-                      data-src="./images/portfolio/pp.webp">
-                      <img
-                        src="./images/portfolio/pp.webp"
-                        alt="globextechnology"
-                      />
-                      <div class="porfolio_btn">
-                        <p>View</p>
-                      </div>
-                    </a>
+                  <div class="potfolio-col position-relative">
+                    <div class="potfolio-col___inner">
+                      <img src="./images/i-mac.png" alt="web development">
+                    </div>
+                    <div class="portfolio__Bg" style="background-image: url('./images/a2z.png');"></div>
                   </div>
-                  <div class="potfolio-col">
-                    <a href="#" data-fancybox="gallery"
-                      data-src="./images/portfolio/shop.webp">
-                      <img
-                        src="./images/portfolio/shop.webp"
-                        alt="globextechnology"
-                      />
-                      <div class="porfolio_btn">
-                        <p>View</p>
-                      </div>
-                    </a>
+                  <div class="potfolio-col position-relative">
+                    <div class="potfolio-col___inner">
+                      <img src="./images/i-mac.png" alt="web development">
+                    </div>
+                    <div class="portfolio__Bg" style="background-image: url('./images/kullion.png');"></div>
                   </div>
-                  <div class="potfolio-col">
-                    <a href="#" data-fancybox="gallery"
-                        data-src="./images/portfolio/wiginston.webp">
-                      <img
-                        src="./images/portfolio/wiginston.webp"
-                        alt="globextechnology"
-                      />
-                      <div class="porfolio_btn">
-                        <p>View</p>
-                      </div>
-                    </a>
+                  <div class="potfolio-col position-relative">
+                    <div class="potfolio-col___inner">
+                      <img src="./images/i-mac.png" alt="web development">
+                    </div>
+                    <div class="portfolio__Bg" style="background-image: url('./images/cars.png');"></div>
                   </div>
                 </div>
               </div>
@@ -4500,31 +4489,25 @@ textarea {
                 aria-labelledby="pills-profile-tab"
               >
                 <div class="portfolio-row">
-                  <div class="potfolio-col">
-                    <a href="#" data-fancybox="gallery"
-                    data-src="./images/portfolio/game.webp">
-                      <img
-                        src="./images/portfolio/game.webp"
-                        alt="globextechnology"
-                      />
-                      <div class="porfolio_btn">
-                        <p>View</p>
-                      </div>
-                    </a>
+                  <div class="potfolio-col position-relative">
+                    <div class="potfolio-col___inner">
+                      <img src="./images/graphic-portfolio.png" alt="web development">
+                    </div>
+                    <div class="portfolio__Bg portfolio__Bg2" style="background-image: url('./images/sketch.png');"></div>
                   </div>
-
-                  <div class="potfolio-col">
-                    <a href="#" data-fancybox="gallery"
-                      data-src="./images/portfolio/oracle.webp">
-                      <img
-                        src="./images/portfolio/oracle.webp"
-                        alt="globextechnology"
-                      />
-                      <div class="porfolio_btn">
-                        <p>View</p>
-                      </div>
-                    </a>
+                  <div class="potfolio-col position-relative">
+                    <div class="potfolio-col___inner">
+                      <img src="./images/graphic-portfolio.png" alt="web development">
+                    </div>
+                    <div class="portfolio__Bg portfolio__Bg2" style="background-image: url('./images/beach.png');"></div>
                   </div>
+                  <div class="potfolio-col position-relative">
+                    <div class="potfolio-col___inner">
+                      <img src="./images/graphic-portfolio.png" alt="web development">
+                    </div>
+                    <div class="portfolio__Bg portfolio__Bg2" style="background-image: url('./images/portfolio/oracle.webp');"></div>
+                  </div>
+                
                 </div>
               </div>
             </div>
