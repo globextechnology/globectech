@@ -301,7 +301,7 @@ function isValidEmail(email) {
 }
 
 function sendEmail(fullName, email, message, phone, services, countryCode) {
-	emailjs.send("service_pb2ymjr", "template_8ddlrt7", {
+	emailjs.send("service_iz42175", "template_8ddlrt7", {
 		fullName: fullName,
 		email: email,
 		message: message,
